@@ -14,6 +14,22 @@ export interface MetaData {
 export var filtes:filer[] = [{names:"female grey" , cate:[]}, {names:"female white" , cate:[]}, {names:"male grey" , cate:[]},{names:"male white" , cate:[]}];
 
 
+export interface metadataNft{
+    id: string,
+    meta:meta
+} 
+
+export interface meta{
+    name: string;
+    configuration: string;
+    attributes:attributes[];
+}
+
+export interface attributes{
+    trait_type:string
+    value:string
+}
+
 export interface TraitsData {
     [key: string]: string[];
 }

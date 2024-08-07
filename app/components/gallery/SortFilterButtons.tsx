@@ -52,20 +52,6 @@ const SortFilterButtons: React.FC<SortFilterButtonsProps> = ({
         <div className={`sorting-options ${isFilterVisible ? 'hide-on-mobile' : ''}`}>
 
             <div>
-                <div className="flex mr-3 md:mr-7 mt-1">
-                    <span className="options-text">ID#</span>
-                    <button className="options-text" onClick={() => setSort({criterion: 'number', order: 'asc'})}>△</button>
-                    <button className="options-text" onClick={() => setSort({criterion: 'number', order: 'desc'})}>▽</button>
-                </div>
-            </div>
-            <div>
-                <div className="flex mr-3 md:mr-7 mt-1 hidden-element">
-                    <span className="options-text">RARITY</span>
-                    <button className="options-text" onClick={() => setSort({criterion: 'rarity', order: 'asc'})}>△</button>
-                    <button className="options-text" onClick={() => setSort({criterion: 'rarity', order: 'desc'})}>▽</button>
-                </div>
-            </div>
-            <div>
                 <div className="flex mr-2 md:mr-7 mt-1">
                     <span className="options-text">DISPLAY</span>
                     <button className="options-text" onClick={increaseColumnCount}>△</button>

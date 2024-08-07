@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { FixedSizeGrid as Grid } from 'react-window';
 import './ImageGallery.css';
-import { MetaData, TraitsData, collection, filer, filtes } from './metadataTypes';
+import { MetaData, TraitsData, collection, filer, filtes, attributes, metadataNft, meta } from './metadataTypes';
 import DetailsModal from './DetailsModal';
 import Filter from './Filter';
 import SortFilterButtons from './SortFilterButtons';
@@ -49,7 +49,9 @@ const ImageGallery: React.FC = () => {
     const [isFilterVisible, setIsFilterVisible] = useState(false);
     const [searchValue, setSearchValue] = useState("");
     const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
-   
+    const [metadataN, setMetadataN] = useState<metadataNft[]>([]);
+    const [selectedMetaN, setselectedMetaN] = useState<attributes[]>([]);
+
 
 
     type SortCriterion = 'rarity' | 'number';
@@ -64,10 +66,11 @@ const ImageGallery: React.FC = () => {
 
         const fetchData = async () => {
             try {
-                const [metadataResponse, traitsResponse, collectionResponse] = await Promise.all([
+                const [metadataResponse, traitsResponse, collectionResponse, metadatar] = await Promise.all([
                     fetch('/Aeons_Metadata.json'),
                     fetch('/Aeons_AvailableTraits.json'),
                     fetch('/collection.json'),
+                    fetch('/metadata.json'),
                 ]);
 
                 if (!metadataResponse.ok || !traitsResponse.ok || !collectionResponse.ok) {
@@ -77,10 +80,12 @@ const ImageGallery: React.FC = () => {
                 const metadata = await metadataResponse.json();
                 const traits = await traitsResponse.json();
                 const collection = await collectionResponse.json();
+                const m = await metadatar.json();
 
                 setCollection(collection);
                 setMetadata(metadata);
                 setTraits(traits);
+                setMetadataN(m);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -198,6 +203,19 @@ const ImageGallery: React.FC = () => {
         const meta = metadata[imageName || ''];
         setSelectedMeta(meta || null);
         setSelectedImage(imageIndex);
+
+
+        let att:attributes[] = [];
+
+        for(let t of metadataN!){
+            if(Number(t.meta.name) == imageIndex){
+                att = t.meta.attributes;
+                break;
+            }
+        }
+
+        setselectedMetaN(att)
+        
     };
     const handlePrevious = () => {
         if (selectedImageIndex !== null && selectedImageIndex > 0) {
@@ -405,10 +423,37 @@ const ImageGallery: React.FC = () => {
     }) => {
 
         const imageIndex = rowIndex * columnCount + columnIndex;
-        if (imageIndex >= filteredImages.length) return null;
+        if (imageIndex >= TOTAL_IMAGES) return null;
 
         const image = filteredImages[imageIndex];
-        console.log(filters)
+
+        let att:meta = {attributes:[], configuration:"", name:""};
+
+        for(let t of metadataN!){
+            if(Number(t.meta.name) == imageIndex){
+                att = t.meta;
+                break;
+            }
+        }
+        let s = false;
+        filtes.forEach((t)=>{
+            if(t.names == att.configuration){
+                t.cate.forEach(g=>{
+                    let nemes:string = g.name;
+                    att.attributes.forEach(p=>{
+                        if(p.trait_type == nemes){
+                            if(g.trats.includes(p.value))
+                            {
+                                s = true;
+                            }
+                        }
+                    })
+
+                })
+            }
+        })
+
+        if(s)return
 
         if (generatedNft[imageIndex]) {
 
@@ -498,7 +543,7 @@ const ImageGallery: React.FC = () => {
                         {selectedMeta && (
                             <DetailsModal onClose={() => setSelectedMeta(null)} onNext={handleNext}
                                 onPrevious={handlePrevious}>
-                                <ImageDetails selectedMeta={selectedMeta} selectedImage={selectedImage} />
+                                <ImageDetails selectedMeta={selectedMeta} selectedImage={selectedImage}/>
                             </DetailsModal>
                         )}
                     </div>
