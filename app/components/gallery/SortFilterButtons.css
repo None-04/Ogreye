@@ -1,0 +1,36 @@
+.options-text {
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center; /* Aligns text and image vertically */
+}
+
+@media (min-width: 768px) {
+    .options-text {
+        font-size: 17px;
+    }
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensures the items are aligned centrally */
+}
+
+
+.sorting-options {
+    display: flex;
+    /* other styles */
+}
+
+@media (max-width: 768px) {
+    .sorting-options.hide-on-mobile {
+        display: none;
+    }
+}
+
+.hidden-element {
+    display: none;
+}

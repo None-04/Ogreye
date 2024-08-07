@@ -1,0 +1,3100 @@
+{
+  "name": "OgrEye",
+  "supply": 3333,
+  "configurations": [
+    {
+      "name": "female grey",
+      "categories": [
+        {
+          "name": "backgrounds",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "01",
+              "count": 0,
+              "id": "01.webp"
+            },
+            {
+              "name": "02",
+              "count": 0,
+              "id": "02.webp"
+            },
+            {
+              "name": "03",
+              "count": 0,
+              "id": "03.webp"
+            },
+            {
+              "name": "04",
+              "count": 0,
+              "id": "04.webp"
+            },
+            {
+              "name": "05",
+              "count": 0,
+              "id": "05.webp"
+            },
+            {
+              "name": "06",
+              "count": 0,
+              "id": "06.webp"
+            }
+          ]
+        },
+        {
+          "name": "base body",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "base body f 01",
+              "count": 0,
+              "id": "base body f 01.webp"
+            }
+          ]
+        },
+        {
+          "name": "beard and jaw",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "beard and jaw f 01",
+              "count": 0,
+              "id": "beard and jaw f 01.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "body paint tattoo f 01",
+              "count": 0,
+              "id": "body paint tattoo f 01.webp"
+            },
+            {
+              "name": "body paint tattoo f 02",
+              "count": 0,
+              "id": "body paint tattoo f 02.webp"
+            },
+            {
+              "name": "body paint tattoo f 03",
+              "count": 0,
+              "id": "body paint tattoo f 03.webp"
+            },
+            {
+              "name": "body paint tattoo f 04",
+              "count": 0,
+              "id": "body paint tattoo f 04.webp"
+            },
+            {
+              "name": "body paint tattoo f 05",
+              "count": 0,
+              "id": "body paint tattoo f 05.webp"
+            },
+            {
+              "name": "body paint tattoo f 06",
+              "count": 0,
+              "id": "body paint tattoo f 06.webp"
+            },
+            {
+              "name": "body paint tattoo f 07",
+              "count": 0,
+              "id": "body paint tattoo f 07.webp"
+            },
+            {
+              "name": "body paint tattoo f 08",
+              "count": 0,
+              "id": "body paint tattoo f 08.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "body scars f 01",
+              "count": 0,
+              "id": "body scars f 01.webp"
+            },
+            {
+              "name": "body scars f 02",
+              "count": 0,
+              "id": "body scars f 02.webp"
+            },
+            {
+              "name": "body scars f 03",
+              "count": 0,
+              "id": "body scars f 03.webp"
+            },
+            {
+              "name": "body scars f 04",
+              "count": 0,
+              "id": "body scars f 04.webp"
+            },
+            {
+              "name": "body scars f 05",
+              "count": 0,
+              "id": "body scars f 05.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "clothes",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "clothes f 01",
+              "count": 0,
+              "id": "clothes f 01.webp"
+            },
+            {
+              "name": "clothes f 02",
+              "count": 0,
+              "id": "clothes f 02.webp"
+            },
+            {
+              "name": "clothes f 03",
+              "count": 0,
+              "id": "clothes f 03.webp"
+            },
+            {
+              "name": "clothes f 04",
+              "count": 0,
+              "id": "clothes f 04.webp"
+            },
+            {
+              "name": "clothes f 05",
+              "count": 0,
+              "id": "clothes f 05.webp"
+            },
+            {
+              "name": "clothes f 06",
+              "count": 0,
+              "id": "clothes f 06.webp"
+            },
+            {
+              "name": "clothes f 07",
+              "count": 0,
+              "id": "clothes f 07.webp"
+            },
+            {
+              "name": "clothes f 08",
+              "count": 0,
+              "id": "clothes f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "ear",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "ear f 01",
+              "count": 0,
+              "id": "ear f 01.webp"
+            },
+            {
+              "name": "ear f 02",
+              "count": 0,
+              "id": "ear f 02.webp"
+            },
+            {
+              "name": "ear f 03",
+              "count": 0,
+              "id": "ear f 03.webp"
+            },
+            {
+              "name": "ear f 04",
+              "count": 0,
+              "id": "ear f 04.webp"
+            },
+            {
+              "name": "ear f 05",
+              "count": 0,
+              "id": "ear f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "earring",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "earring f 01",
+              "count": 0,
+              "id": "earring f 01.webp"
+            },
+            {
+              "name": "earring f 02",
+              "count": 0,
+              "id": "earring f 02.webp"
+            },
+            {
+              "name": "earring f 03",
+              "count": 0,
+              "id": "earring f 03.webp"
+            },
+            {
+              "name": "earring f 04",
+              "count": 0,
+              "id": "earring f 04.webp"
+            },
+            {
+              "name": "earring f 05",
+              "count": 0,
+              "id": "earring f 05.webp"
+            },
+            {
+              "name": "earring f 06",
+              "count": 0,
+              "id": "earring f 06.webp"
+            },
+            {
+              "name": "earring f 07",
+              "count": 0,
+              "id": "earring f 07.webp"
+            },
+            {
+              "name": "earring f 08",
+              "count": 0,
+              "id": "earring f 08.webp"
+            },
+            {
+              "name": "earring f 09",
+              "count": 0,
+              "id": "earring f 09.webp"
+            },
+            {
+              "name": "earring f 10",
+              "count": 0,
+              "id": "earring f 10.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "eye",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eye f 01",
+              "count": 0,
+              "id": "eye f 01.webp"
+            },
+            {
+              "name": "eye f 02",
+              "count": 0,
+              "id": "eye f 02.webp"
+            },
+            {
+              "name": "eye f 03",
+              "count": 0,
+              "id": "eye f 03.webp"
+            },
+            {
+              "name": "eye f 04",
+              "count": 0,
+              "id": "eye f 04.webp"
+            },
+            {
+              "name": "eye f 05",
+              "count": 0,
+              "id": "eye f 05.webp"
+            },
+            {
+              "name": "eye f 06",
+              "count": 0,
+              "id": "eye f 06.webp"
+            },
+            {
+              "name": "eye f 07",
+              "count": 0,
+              "id": "eye f 07.webp"
+            },
+            {
+              "name": "eye f 08",
+              "count": 0,
+              "id": "eye f 08.webp"
+            },
+            {
+              "name": "eye f 09",
+              "count": 0,
+              "id": "eye f 09.webp"
+            },
+            {
+              "name": "eye f 10",
+              "count": 0,
+              "id": "eye f 10.webp"
+            },
+            {
+              "name": "eye f 11",
+              "count": 0,
+              "id": "eye f 11.webp"
+            }
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eyebrow f 01",
+              "count": 0,
+              "id": "eyebrow f 01.webp"
+            },
+            {
+              "name": "eyebrow f 02",
+              "count": 0,
+              "id": "eyebrow f 02.webp"
+            },
+            {
+              "name": "eyebrow f 03",
+              "count": 0,
+              "id": "eyebrow f 03.webp"
+            },
+            {
+              "name": "eyebrow f 04",
+              "count": 0,
+              "id": "eyebrow f 04.webp"
+            },
+            {
+              "name": "eyebrow f 05",
+              "count": 0,
+              "id": "eyebrow f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "face paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face paint tattoo f 01",
+              "count": 0,
+              "id": "face paint tattoo f 01.webp"
+            },
+            {
+              "name": "face paint tattoo f 02",
+              "count": 0,
+              "id": "face paint tattoo f 02.webp"
+            },
+            {
+              "name": "face paint tattoo f 03",
+              "count": 0,
+              "id": "face paint tattoo f 03.webp"
+            },
+            {
+              "name": "face paint tattoo f 04",
+              "count": 0,
+              "id": "face paint tattoo f 04.webp"
+            },
+            {
+              "name": "face paint tattoo f 05",
+              "count": 0,
+              "id": "face paint tattoo f 05.webp"
+            },
+            {
+              "name": "face paint tattoo f 06",
+              "count": 0,
+              "id": "face paint tattoo f 06.webp"
+            },
+            {
+              "name": "face paint tattoo f 07",
+              "count": 0,
+              "id": "face paint tattoo f 07.webp"
+            },
+            {
+              "name": "face paint tattoo f 08",
+              "count": 0,
+              "id": "face paint tattoo f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "face scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face scars f 01",
+              "count": 0,
+              "id": "face scars f 01.webp"
+            },
+            {
+              "name": "face scars f 02",
+              "count": 0,
+              "id": "face scars f 02.webp"
+            },
+            {
+              "name": "face scars f 03",
+              "count": 0,
+              "id": "face scars f 03.webp"
+            },
+            {
+              "name": "face scars f 04",
+              "count": 0,
+              "id": "face scars f 04.webp"
+            },
+            {
+              "name": "face scars f 05",
+              "count": 0,
+              "id": "face scars f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "hair",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "hair f 01",
+              "count": 0,
+              "id": "hair f 01.webp"
+            },
+            {
+              "name": "hair f 02",
+              "count": 0,
+              "id": "hair f 02.webp"
+            },
+            {
+              "name": "hair f 03",
+              "count": 0,
+              "id": "hair f 03.webp"
+            },
+            {
+              "name": "hair f 04",
+              "count": 0,
+              "id": "hair f 04.webp"
+            },
+            {
+              "name": "hair f 05",
+              "count": 0,
+              "id": "hair f 05.webp"
+            },
+            {
+              "name": "hair f 06",
+              "count": 0,
+              "id": "hair f 06.webp"
+            },
+            {
+              "name": "hair f 07",
+              "count": 0,
+              "id": "hair f 07.webp"
+            },
+            {
+              "name": "hair f 08",
+              "count": 0,
+              "id": "hair f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "mouth and teeth",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "mouth and teeth f 01",
+              "count": 0,
+              "id": "mouth and teeth f 01.webp"
+            },
+            {
+              "name": "mouth and teeth f 02",
+              "count": 0,
+              "id": "mouth and teeth f 02.webp"
+            },
+            {
+              "name": "mouth and teeth f 03",
+              "count": 0,
+              "id": "mouth and teeth f 03.webp"
+            },
+            {
+              "name": "mouth and teeth f 04",
+              "count": 0,
+              "id": "mouth and teeth f 04.webp"
+            },
+            {
+              "name": "mouth and teeth f 05",
+              "count": 0,
+              "id": "mouth and teeth f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "necklace",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "necklace f 01",
+              "count": 0,
+              "id": "necklace f 01.webp"
+            },
+            {
+              "name": "necklace f 02",
+              "count": 0,
+              "id": "necklace f 02.webp"
+            },
+            {
+              "name": "necklace f 03",
+              "count": 0,
+              "id": "necklace f 03.webp"
+            },
+            {
+              "name": "necklace f 04",
+              "count": 0,
+              "id": "necklace f 04.webp"
+            },
+            {
+              "name": "necklace f 05",
+              "count": 0,
+              "id": "necklace f 05.webp"
+            },
+            {
+              "name": "necklace f 06",
+              "count": 0,
+              "id": "necklace f 06.webp"
+            },
+            {
+              "name": "necklace f 07",
+              "count": 0,
+              "id": "necklace f 07.webp"
+            },
+            {
+              "name": "necklace f 08",
+              "count": 0,
+              "id": "necklace f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "nose f 01",
+              "count": 0,
+              "id": "nose f 01.webp"
+            },
+            {
+              "name": "nose f 02",
+              "count": 0,
+              "id": "nose f 02.webp"
+            },
+            {
+              "name": "nose f 03",
+              "count": 0,
+              "id": "nose f 03.webp"
+            },
+            {
+              "name": "nose f 04",
+              "count": 0,
+              "id": "nose f 04.webp"
+            },
+            {
+              "name": "nose f 05",
+              "count": 0,
+              "id": "nose f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose piercing",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "nose piercing f 01",
+              "count": 0,
+              "id": "nose piercing f 01.webp"
+            },
+            {
+              "name": "nose piercing f 02",
+              "count": 0,
+              "id": "nose piercing f 02.webp"
+            },
+            {
+              "name": "nose piercing f 03",
+              "count": 0,
+              "id": "nose piercing f 03.webp"
+            },
+            {
+              "name": "nose piercing f 04",
+              "count": 0,
+              "id": "nose piercing f 04.webp"
+            },
+            {
+              "name": "nose piercing f 05",
+              "count": 0,
+              "id": "nose piercing f 05.webp"
+            },
+            {
+              "name": "nose piercing f 06",
+              "count": 0,
+              "id": "nose piercing f 06.webp"
+            }
+          ]
+        },
+        {
+          "name": "shoulder armor",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "shoulder armor f 01",
+              "count": 0,
+              "id": "shoulder armor f 01.webp"
+            },
+            {
+              "name": "shoulder armor f 02",
+              "count": 0,
+              "id": "shoulder armor f 02.webp"
+            },
+            {
+              "name": "shoulder armor f 03",
+              "count": 0,
+              "id": "shoulder armor f 03.webp"
+            },
+            {
+              "name": "shoulder armor f 04",
+              "count": 0,
+              "id": "shoulder armor f 04.webp"
+            },
+            {
+              "name": "shoulder armor f 05",
+              "count": 0,
+              "id": "shoulder armor f 05.webp"
+            },
+            {
+              "name": "shoulder armor f 06",
+              "count": 0,
+              "id": "shoulder armor f 06.webp"
+            },
+            {
+              "name": "shoulder armor f 07",
+              "count": 0,
+              "id": "shoulder armor f 07.webp"
+            },
+            {
+              "name": "shoulder armor f 08",
+              "count": 0,
+              "id": "shoulder armor f 08.webp"
+            },
+            {
+              "name": "shoulder armor f 09",
+              "count": 0,
+              "id": "shoulder armor f 09.webp"
+            }
+          ]
+        },
+        {
+          "name": "weapon",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "weapon f 01",
+              "count": 0,
+              "id": "weapon f 01.webp"
+            },
+            {
+              "name": "weapon f 02",
+              "count": 0,
+              "id": "weapon f 02.webp"
+            },
+            {
+              "name": "weapon f 03",
+              "count": 0,
+              "id": "weapon f 03.webp"
+            },
+            {
+              "name": "weapon f 04",
+              "count": 0,
+              "id": "weapon f 04.webp"
+            },
+            {
+              "name": "weapon f 05",
+              "count": 0,
+              "id": "weapon f 05.webp"
+            },
+            {
+              "name": "weapon f 06",
+              "count": 0,
+              "id": "weapon f 06.webp"
+            },
+            {
+              "name": "weapon f 07",
+              "count": 0,
+              "id": "weapon f 07.webp"
+            },
+            {
+              "name": "weapon f 08",
+              "count": 0,
+              "id": "weapon f 08.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "female white",
+      "categories": [
+        {
+          "name": "backgrounds",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "01",
+              "count": 0,
+              "id": "01.webp"
+            },
+            {
+              "name": "02",
+              "count": 0,
+              "id": "02.webp"
+            },
+            {
+              "name": "03",
+              "count": 0,
+              "id": "03.webp"
+            },
+            {
+              "name": "04",
+              "count": 0,
+              "id": "04.webp"
+            },
+            {
+              "name": "05",
+              "count": 0,
+              "id": "05.webp"
+            },
+            {
+              "name": "06",
+              "count": 0,
+              "id": "06.webp"
+            }
+          ]
+        },
+        {
+          "name": "base body",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "base body f 01",
+              "count": 0,
+              "id": "base body f 01.webp"
+            }
+          ]
+        },
+        {
+          "name": "beard and jaw",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "beard and jaw f 01",
+              "count": 0,
+              "id": "beard and jaw f 01.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "body paint tattoo f 01",
+              "count": 0,
+              "id": "body paint tattoo f 01.webp"
+            },
+            {
+              "name": "body paint tattoo f 02",
+              "count": 0,
+              "id": "body paint tattoo f 02.webp"
+            },
+            {
+              "name": "body paint tattoo f 03",
+              "count": 0,
+              "id": "body paint tattoo f 03.webp"
+            },
+            {
+              "name": "body paint tattoo f 04",
+              "count": 0,
+              "id": "body paint tattoo f 04.webp"
+            },
+            {
+              "name": "body paint tattoo f 05",
+              "count": 0,
+              "id": "body paint tattoo f 05.webp"
+            },
+            {
+              "name": "body paint tattoo f 06",
+              "count": 0,
+              "id": "body paint tattoo f 06.webp"
+            },
+            {
+              "name": "body paint tattoo f 07",
+              "count": 0,
+              "id": "body paint tattoo f 07.webp"
+            },
+            {
+              "name": "body paint tattoo f 08",
+              "count": 0,
+              "id": "body paint tattoo f 08.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "body scars f 01",
+              "count": 0,
+              "id": "body scars f 01.webp"
+            },
+            {
+              "name": "body scars f 02",
+              "count": 0,
+              "id": "body scars f 02.webp"
+            },
+            {
+              "name": "body scars f 03",
+              "count": 0,
+              "id": "body scars f 03.webp"
+            },
+            {
+              "name": "body scars f 04",
+              "count": 0,
+              "id": "body scars f 04.webp"
+            },
+            {
+              "name": "body scars f 05",
+              "count": 0,
+              "id": "body scars f 05.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "clothes",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "clothes f 01",
+              "count": 0,
+              "id": "clothes f 01.webp"
+            },
+            {
+              "name": "clothes f 02",
+              "count": 0,
+              "id": "clothes f 02.webp"
+            },
+            {
+              "name": "clothes f 03",
+              "count": 0,
+              "id": "clothes f 03.webp"
+            },
+            {
+              "name": "clothes f 04",
+              "count": 0,
+              "id": "clothes f 04.webp"
+            },
+            {
+              "name": "clothes f 05",
+              "count": 0,
+              "id": "clothes f 05.webp"
+            },
+            {
+              "name": "clothes f 06",
+              "count": 0,
+              "id": "clothes f 06.webp"
+            },
+            {
+              "name": "clothes f 07",
+              "count": 0,
+              "id": "clothes f 07.webp"
+            },
+            {
+              "name": "clothes f 08",
+              "count": 0,
+              "id": "clothes f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "ear",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "ear f 01",
+              "count": 0,
+              "id": "ear f 01.webp"
+            },
+            {
+              "name": "ear f 02",
+              "count": 0,
+              "id": "ear f 02.webp"
+            },
+            {
+              "name": "ear f 03",
+              "count": 0,
+              "id": "ear f 03.webp"
+            },
+            {
+              "name": "ear f 04",
+              "count": 0,
+              "id": "ear f 04.webp"
+            },
+            {
+              "name": "ear f 05",
+              "count": 0,
+              "id": "ear f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "earring",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "earring f 01",
+              "count": 0,
+              "id": "earring f 01.webp"
+            },
+            {
+              "name": "earring f 02",
+              "count": 0,
+              "id": "earring f 02.webp"
+            },
+            {
+              "name": "earring f 03",
+              "count": 0,
+              "id": "earring f 03.webp"
+            },
+            {
+              "name": "earring f 04",
+              "count": 0,
+              "id": "earring f 04.webp"
+            },
+            {
+              "name": "earring f 05",
+              "count": 0,
+              "id": "earring f 05.webp"
+            },
+            {
+              "name": "earring f 06",
+              "count": 0,
+              "id": "earring f 06.webp"
+            },
+            {
+              "name": "earring f 07",
+              "count": 0,
+              "id": "earring f 07.webp"
+            },
+            {
+              "name": "earring f 08",
+              "count": 0,
+              "id": "earring f 08.webp"
+            },
+            {
+              "name": "earring f 09",
+              "count": 0,
+              "id": "earring f 09.webp"
+            },
+            {
+              "name": "earring f 10",
+              "count": 0,
+              "id": "earring f 10.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "eye",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eye f 01",
+              "count": 0,
+              "id": "eye f 01.webp"
+            },
+            {
+              "name": "eye f 02",
+              "count": 0,
+              "id": "eye f 02.webp"
+            },
+            {
+              "name": "eye f 03",
+              "count": 0,
+              "id": "eye f 03.webp"
+            },
+            {
+              "name": "eye f 04",
+              "count": 0,
+              "id": "eye f 04.webp"
+            },
+            {
+              "name": "eye f 05",
+              "count": 0,
+              "id": "eye f 05.webp"
+            },
+            {
+              "name": "eye f 06",
+              "count": 0,
+              "id": "eye f 06.webp"
+            },
+            {
+              "name": "eye f 07",
+              "count": 0,
+              "id": "eye f 07.webp"
+            },
+            {
+              "name": "eye f 08",
+              "count": 0,
+              "id": "eye f 08.webp"
+            },
+            {
+              "name": "eye f 09",
+              "count": 0,
+              "id": "eye f 09.webp"
+            },
+            {
+              "name": "eye f 10",
+              "count": 0,
+              "id": "eye f 10.webp"
+            },
+            {
+              "name": "eye f 11",
+              "count": 0,
+              "id": "eye f 11.webp"
+            }
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eyebrow f 01",
+              "count": 0,
+              "id": "eyebrow f 01.webp"
+            },
+            {
+              "name": "eyebrow f 02",
+              "count": 0,
+              "id": "eyebrow f 02.webp"
+            },
+            {
+              "name": "eyebrow f 03",
+              "count": 0,
+              "id": "eyebrow f 03.webp"
+            },
+            {
+              "name": "eyebrow f 04",
+              "count": 0,
+              "id": "eyebrow f 04.webp"
+            },
+            {
+              "name": "eyebrow f 05",
+              "count": 0,
+              "id": "eyebrow f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "face paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face paint tattoo f 01",
+              "count": 0,
+              "id": "face paint tattoo f 01.webp"
+            },
+            {
+              "name": "face paint tattoo f 02",
+              "count": 0,
+              "id": "face paint tattoo f 02.webp"
+            },
+            {
+              "name": "face paint tattoo f 03",
+              "count": 0,
+              "id": "face paint tattoo f 03.webp"
+            },
+            {
+              "name": "face paint tattoo f 04",
+              "count": 0,
+              "id": "face paint tattoo f 04.webp"
+            },
+            {
+              "name": "face paint tattoo f 05",
+              "count": 0,
+              "id": "face paint tattoo f 05.webp"
+            },
+            {
+              "name": "face paint tattoo f 06",
+              "count": 0,
+              "id": "face paint tattoo f 06.webp"
+            },
+            {
+              "name": "face paint tattoo f 07",
+              "count": 0,
+              "id": "face paint tattoo f 07.webp"
+            },
+            {
+              "name": "face paint tattoo f 08",
+              "count": 0,
+              "id": "face paint tattoo f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "face scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face scars f 01",
+              "count": 0,
+              "id": "face scars f 01.webp"
+            },
+            {
+              "name": "face scars f 02",
+              "count": 0,
+              "id": "face scars f 02.webp"
+            },
+            {
+              "name": "face scars f 03",
+              "count": 0,
+              "id": "face scars f 03.webp"
+            },
+            {
+              "name": "face scars f 04",
+              "count": 0,
+              "id": "face scars f 04.webp"
+            },
+            {
+              "name": "face scars f 05",
+              "count": 0,
+              "id": "face scars f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "hair",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "hair f 01",
+              "count": 0,
+              "id": "hair f 01.webp"
+            },
+            {
+              "name": "hair f 02",
+              "count": 0,
+              "id": "hair f 02.webp"
+            },
+            {
+              "name": "hair f 03",
+              "count": 0,
+              "id": "hair f 03.webp"
+            },
+            {
+              "name": "hair f 04",
+              "count": 0,
+              "id": "hair f 04.webp"
+            },
+            {
+              "name": "hair f 05",
+              "count": 0,
+              "id": "hair f 05.webp"
+            },
+            {
+              "name": "hair f 06",
+              "count": 0,
+              "id": "hair f 06.webp"
+            },
+            {
+              "name": "hair f 07",
+              "count": 0,
+              "id": "hair f 07.webp"
+            },
+            {
+              "name": "hair f 08",
+              "count": 0,
+              "id": "hair f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "mouth and teeth",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "mouth and teeth f 01",
+              "count": 0,
+              "id": "mouth and teeth f 01.webp"
+            },
+            {
+              "name": "mouth and teeth f 02",
+              "count": 0,
+              "id": "mouth and teeth f 02.webp"
+            },
+            {
+              "name": "mouth and teeth f 03",
+              "count": 0,
+              "id": "mouth and teeth f 03.webp"
+            },
+            {
+              "name": "mouth and teeth f 04",
+              "count": 0,
+              "id": "mouth and teeth f 04.webp"
+            },
+            {
+              "name": "mouth and teeth f 05",
+              "count": 0,
+              "id": "mouth and teeth f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "necklace",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "necklace f 01",
+              "count": 0,
+              "id": "necklace f 01.webp"
+            },
+            {
+              "name": "necklace f 02",
+              "count": 0,
+              "id": "necklace f 02.webp"
+            },
+            {
+              "name": "necklace f 03",
+              "count": 0,
+              "id": "necklace f 03.webp"
+            },
+            {
+              "name": "necklace f 04",
+              "count": 0,
+              "id": "necklace f 04.webp"
+            },
+            {
+              "name": "necklace f 05",
+              "count": 0,
+              "id": "necklace f 05.webp"
+            },
+            {
+              "name": "necklace f 06",
+              "count": 0,
+              "id": "necklace f 06.webp"
+            },
+            {
+              "name": "necklace f 07",
+              "count": 0,
+              "id": "necklace f 07.webp"
+            },
+            {
+              "name": "necklace f 08",
+              "count": 0,
+              "id": "necklace f 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "nose f 01",
+              "count": 0,
+              "id": "nose f 01.webp"
+            },
+            {
+              "name": "nose f 02",
+              "count": 0,
+              "id": "nose f 02.webp"
+            },
+            {
+              "name": "nose f 03",
+              "count": 0,
+              "id": "nose f 03.webp"
+            },
+            {
+              "name": "nose f 04",
+              "count": 0,
+              "id": "nose f 04.webp"
+            },
+            {
+              "name": "nose f 05",
+              "count": 0,
+              "id": "nose f 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose piercing",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "nose piercing f 01",
+              "count": 0,
+              "id": "nose piercing f 01.webp"
+            },
+            {
+              "name": "nose piercing f 02",
+              "count": 0,
+              "id": "nose piercing f 02.webp"
+            },
+            {
+              "name": "nose piercing f 03",
+              "count": 0,
+              "id": "nose piercing f 03.webp"
+            },
+            {
+              "name": "nose piercing f 04",
+              "count": 0,
+              "id": "nose piercing f 04.webp"
+            },
+            {
+              "name": "nose piercing f 05",
+              "count": 0,
+              "id": "nose piercing f 05.webp"
+            },
+            {
+              "name": "nose piercing f 06",
+              "count": 0,
+              "id": "nose piercing f 06.webp"
+            }
+          ]
+        },
+        {
+          "name": "shoulder armor",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "shoulder armor f 01",
+              "count": 0,
+              "id": "shoulder armor f 01.webp"
+            },
+            {
+              "name": "shoulder armor f 02",
+              "count": 0,
+              "id": "shoulder armor f 02.webp"
+            },
+            {
+              "name": "shoulder armor f 03",
+              "count": 0,
+              "id": "shoulder armor f 03.webp"
+            },
+            {
+              "name": "shoulder armor f 04",
+              "count": 0,
+              "id": "shoulder armor f 04.webp"
+            },
+            {
+              "name": "shoulder armor f 05",
+              "count": 0,
+              "id": "shoulder armor f 05.webp"
+            },
+            {
+              "name": "shoulder armor f 06",
+              "count": 0,
+              "id": "shoulder armor f 06.webp"
+            },
+            {
+              "name": "shoulder armor f 07",
+              "count": 0,
+              "id": "shoulder armor f 07.webp"
+            },
+            {
+              "name": "shoulder armor f 08",
+              "count": 0,
+              "id": "shoulder armor f 08.webp"
+            },
+            {
+              "name": "shoulder armor f 09",
+              "count": 0,
+              "id": "shoulder armor f 09.webp"
+            }
+          ]
+        },
+        {
+          "name": "weapon",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "weapon f 01",
+              "count": 0,
+              "id": "weapon f 01.webp"
+            },
+            {
+              "name": "weapon f 02",
+              "count": 0,
+              "id": "weapon f 02.webp"
+            },
+            {
+              "name": "weapon f 03",
+              "count": 0,
+              "id": "weapon f 03.webp"
+            },
+            {
+              "name": "weapon f 04",
+              "count": 0,
+              "id": "weapon f 04.webp"
+            },
+            {
+              "name": "weapon f 05",
+              "count": 0,
+              "id": "weapon f 05.webp"
+            },
+            {
+              "name": "weapon f 06",
+              "count": 0,
+              "id": "weapon f 06.webp"
+            },
+            {
+              "name": "weapon f 07",
+              "count": 0,
+              "id": "weapon f 07.webp"
+            },
+            {
+              "name": "weapon f 08",
+              "count": 0,
+              "id": "weapon f 08.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "male grey",
+      "categories": [
+        {
+          "name": "backgrounds",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "01",
+              "count": 0,
+              "id": "01.webp"
+            },
+            {
+              "name": "02",
+              "count": 0,
+              "id": "02.webp"
+            },
+            {
+              "name": "03",
+              "count": 0,
+              "id": "03.webp"
+            },
+            {
+              "name": "04",
+              "count": 0,
+              "id": "04.webp"
+            },
+            {
+              "name": "05",
+              "count": 0,
+              "id": "05.webp"
+            },
+            {
+              "name": "06",
+              "count": 0,
+              "id": "06.webp"
+            }
+          ]
+        },
+        {
+          "name": "base body",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "base body m 01",
+              "count": 0,
+              "id": "base body m 01.webp"
+            }
+          ]
+        },
+        {
+          "name": "beard and jaw",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "beard and jaw m 01",
+              "count": 0,
+              "id": "beard and jaw m 01.webp"
+            },
+            {
+              "name": "beard and jaw m 02",
+              "count": 0,
+              "id": "beard and jaw m 02.webp"
+            },
+            {
+              "name": "beard and jaw m 03",
+              "count": 0,
+              "id": "beard and jaw m 03.webp"
+            },
+            {
+              "name": "beard and jaw m 04",
+              "count": 0,
+              "id": "beard and jaw m 04.webp"
+            },
+            {
+              "name": "beard and jaw m 05",
+              "count": 0,
+              "id": "beard and jaw m 05.webp"
+            },
+            {
+              "name": "beard and jaw m 06",
+              "count": 0,
+              "id": "beard and jaw m 06.webp"
+            },
+            {
+              "name": "beard and jaw m 07",
+              "count": 0,
+              "id": "beard and jaw m 07.webp"
+            },
+            {
+              "name": "beard and jaw m 08",
+              "count": 0,
+              "id": "beard and jaw m 08.webp"
+            },
+            {
+              "name": "beard and jaw m 09",
+              "count": 0,
+              "id": "beard and jaw m 09.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "body paint tattoo m 01",
+              "count": 0,
+              "id": "body paint tattoo m 01.webp"
+            },
+            {
+              "name": "body paint tattoo m 02",
+              "count": 0,
+              "id": "body paint tattoo m 02.webp"
+            },
+            {
+              "name": "body paint tattoo m 03",
+              "count": 0,
+              "id": "body paint tattoo m 03.webp"
+            },
+            {
+              "name": "body paint tattoo m 04",
+              "count": 0,
+              "id": "body paint tattoo m 04.webp"
+            },
+            {
+              "name": "body paint tattoo m 05",
+              "count": 0,
+              "id": "body paint tattoo m 05.webp"
+            },
+            {
+              "name": "body paint tattoo m 06",
+              "count": 0,
+              "id": "body paint tattoo m 06.webp"
+            },
+            {
+              "name": "body paint tattoo m 07",
+              "count": 0,
+              "id": "body paint tattoo m 07.webp"
+            },
+            {
+              "name": "body paint tattoo m 08",
+              "count": 0,
+              "id": "body paint tattoo m 08.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "body scars m 01",
+              "count": 0,
+              "id": "body scars m 01.webp"
+            },
+            {
+              "name": "body scars m 02",
+              "count": 0,
+              "id": "body scars m 02.webp"
+            },
+            {
+              "name": "body scars m 03",
+              "count": 0,
+              "id": "body scars m 03.webp"
+            },
+            {
+              "name": "body scars m 04",
+              "count": 0,
+              "id": "body scars m 04.webp"
+            },
+            {
+              "name": "body scars m 05",
+              "count": 0,
+              "id": "body scars m 05.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "ear",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "ear m 01",
+              "count": 0,
+              "id": "ear m 01.webp"
+            },
+            {
+              "name": "ear m 02",
+              "count": 0,
+              "id": "ear m 02.webp"
+            },
+            {
+              "name": "ear m 03",
+              "count": 0,
+              "id": "ear m 03.webp"
+            },
+            {
+              "name": "ear m 04",
+              "count": 0,
+              "id": "ear m 04.webp"
+            },
+            {
+              "name": "ear m 05",
+              "count": 0,
+              "id": "ear m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "earring",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "earring m 01",
+              "count": 0,
+              "id": "earring m 01.webp"
+            },
+            {
+              "name": "earring m 02",
+              "count": 0,
+              "id": "earring m 02.webp"
+            },
+            {
+              "name": "earring m 04",
+              "count": 0,
+              "id": "earring m 04.webp"
+            },
+            {
+              "name": "earring m 05",
+              "count": 0,
+              "id": "earring m 05.webp"
+            },
+            {
+              "name": "earring m 06",
+              "count": 0,
+              "id": "earring m 06.webp"
+            },
+            {
+              "name": "earring m 07",
+              "count": 0,
+              "id": "earring m 07.webp"
+            },
+            {
+              "name": "earring m 08",
+              "count": 0,
+              "id": "earring m 08.webp"
+            },
+            {
+              "name": "earring m 09",
+              "count": 0,
+              "id": "earring m 09.webp"
+            },
+            {
+              "name": "earring m 10",
+              "count": 0,
+              "id": "earring m 10.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "eye",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eye m 01",
+              "count": 0,
+              "id": "eye m 01.webp"
+            },
+            {
+              "name": "eye m 02",
+              "count": 0,
+              "id": "eye m 02.webp"
+            },
+            {
+              "name": "eye m 03",
+              "count": 0,
+              "id": "eye m 03.webp"
+            },
+            {
+              "name": "eye m 04",
+              "count": 0,
+              "id": "eye m 04.webp"
+            },
+            {
+              "name": "eye m 05",
+              "count": 0,
+              "id": "eye m 05.webp"
+            },
+            {
+              "name": "eye m 06",
+              "count": 0,
+              "id": "eye m 06.webp"
+            },
+            {
+              "name": "eye m 07",
+              "count": 0,
+              "id": "eye m 07.webp"
+            },
+            {
+              "name": "eye m 08",
+              "count": 0,
+              "id": "eye m 08.webp"
+            },
+            {
+              "name": "eye m 09",
+              "count": 0,
+              "id": "eye m 09.webp"
+            },
+            {
+              "name": "eye m 10",
+              "count": 0,
+              "id": "eye m 10.webp"
+            },
+            {
+              "name": "eye m 11",
+              "count": 0,
+              "id": "eye m 11.webp"
+            }
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eyebrow m 01",
+              "count": 0,
+              "id": "eyebrow m 01.webp"
+            },
+            {
+              "name": "eyebrow m 02",
+              "count": 0,
+              "id": "eyebrow m 02.webp"
+            },
+            {
+              "name": "eyebrow m 03",
+              "count": 0,
+              "id": "eyebrow m 03.webp"
+            },
+            {
+              "name": "eyebrow m 04",
+              "count": 0,
+              "id": "eyebrow m 04.webp"
+            },
+            {
+              "name": "eyebrow m 05",
+              "count": 0,
+              "id": "eyebrow m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "face paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face paint tattoo 01",
+              "count": 0,
+              "id": "face paint tattoo 01.webp"
+            },
+            {
+              "name": "face paint tattoo 02",
+              "count": 0,
+              "id": "face paint tattoo 02.webp"
+            },
+            {
+              "name": "face paint tattoo 03",
+              "count": 0,
+              "id": "face paint tattoo 03.webp"
+            },
+            {
+              "name": "face paint tattoo 04",
+              "count": 0,
+              "id": "face paint tattoo 04.webp"
+            },
+            {
+              "name": "face paint tattoo 05",
+              "count": 0,
+              "id": "face paint tattoo 05.webp"
+            },
+            {
+              "name": "face paint tattoo 06",
+              "count": 0,
+              "id": "face paint tattoo 06.webp"
+            },
+            {
+              "name": "face paint tattoo 07",
+              "count": 0,
+              "id": "face paint tattoo 07.webp"
+            },
+            {
+              "name": "face paint tattoo 08",
+              "count": 0,
+              "id": "face paint tattoo 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "face scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face scars m 01",
+              "count": 0,
+              "id": "face scars m 01.webp"
+            },
+            {
+              "name": "face scars m 02",
+              "count": 0,
+              "id": "face scars m 02.webp"
+            },
+            {
+              "name": "face scars m 03",
+              "count": 0,
+              "id": "face scars m 03.webp"
+            },
+            {
+              "name": "face scars m 04",
+              "count": 0,
+              "id": "face scars m 04.webp"
+            },
+            {
+              "name": "face scars m 05",
+              "count": 0,
+              "id": "face scars m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "hair",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "hair m 01",
+              "count": 0,
+              "id": "hair m 01.webp"
+            },
+            {
+              "name": "hair m 02",
+              "count": 0,
+              "id": "hair m 02.webp"
+            },
+            {
+              "name": "hair m 03",
+              "count": 0,
+              "id": "hair m 03.webp"
+            },
+            {
+              "name": "hair m 04",
+              "count": 0,
+              "id": "hair m 04.webp"
+            },
+            {
+              "name": "hair m 05",
+              "count": 0,
+              "id": "hair m 05.webp"
+            },
+            {
+              "name": "hair m 06",
+              "count": 0,
+              "id": "hair m 06.webp"
+            },
+            {
+              "name": "hair m 07",
+              "count": 0,
+              "id": "hair m 07.webp"
+            },
+            {
+              "name": "hair m 08",
+              "count": 0,
+              "id": "hair m 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "mouth and teeth",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "mouth and teeth m 01",
+              "count": 0,
+              "id": "mouth and teeth m 01.webp"
+            },
+            {
+              "name": "mouth and teeth m 02",
+              "count": 0,
+              "id": "mouth and teeth m 02.webp"
+            },
+            {
+              "name": "mouth and teeth m 03",
+              "count": 0,
+              "id": "mouth and teeth m 03.webp"
+            },
+            {
+              "name": "mouth and teeth m 04",
+              "count": 0,
+              "id": "mouth and teeth m 04.webp"
+            },
+            {
+              "name": "mouth and teeth m 05",
+              "count": 0,
+              "id": "mouth and teeth m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "necklace",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "necklace m 01",
+              "count": 0,
+              "id": "necklace m 01.webp"
+            },
+            {
+              "name": "necklace m 02",
+              "count": 0,
+              "id": "necklace m 02.webp"
+            },
+            {
+              "name": "necklace m 03",
+              "count": 0,
+              "id": "necklace m 03.webp"
+            },
+            {
+              "name": "necklace m 04",
+              "count": 0,
+              "id": "necklace m 04.webp"
+            },
+            {
+              "name": "necklace m 05",
+              "count": 0,
+              "id": "necklace m 05.webp"
+            },
+            {
+              "name": "necklace m 06",
+              "count": 0,
+              "id": "necklace m 06.webp"
+            },
+            {
+              "name": "necklace m 07",
+              "count": 0,
+              "id": "necklace m 07.webp"
+            },
+            {
+              "name": "necklace m 08",
+              "count": 0,
+              "id": "necklace m 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "nose m 01",
+              "count": 0,
+              "id": "nose m 01.webp"
+            },
+            {
+              "name": "nose m 02",
+              "count": 0,
+              "id": "nose m 02.webp"
+            },
+            {
+              "name": "nose m 03",
+              "count": 0,
+              "id": "nose m 03.webp"
+            },
+            {
+              "name": "nose m 04",
+              "count": 0,
+              "id": "nose m 04.webp"
+            },
+            {
+              "name": "nose m 05",
+              "count": 0,
+              "id": "nose m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose piercing",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "nose piercing m 01",
+              "count": 0,
+              "id": "nose piercing m 01.webp"
+            },
+            {
+              "name": "nose piercing m 02",
+              "count": 0,
+              "id": "nose piercing m 02.webp"
+            },
+            {
+              "name": "nose piercing m 03",
+              "count": 0,
+              "id": "nose piercing m 03.webp"
+            },
+            {
+              "name": "nose piercing m 04",
+              "count": 0,
+              "id": "nose piercing m 04.webp"
+            },
+            {
+              "name": "nose piercing m 05",
+              "count": 0,
+              "id": "nose piercing m 05.webp"
+            },
+            {
+              "name": "nose piercing m 06",
+              "count": 0,
+              "id": "nose piercing m 06.webp"
+            }
+          ]
+        },
+        {
+          "name": "shoulder armor",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "shoulder armor m 01",
+              "count": 0,
+              "id": "shoulder armor m 01.webp"
+            },
+            {
+              "name": "shoulder armor m 02",
+              "count": 0,
+              "id": "shoulder armor m 02.webp"
+            },
+            {
+              "name": "shoulder armor m 03",
+              "count": 0,
+              "id": "shoulder armor m 03.webp"
+            },
+            {
+              "name": "shoulder armor m 04",
+              "count": 0,
+              "id": "shoulder armor m 04.webp"
+            },
+            {
+              "name": "shoulder armor m 05",
+              "count": 0,
+              "id": "shoulder armor m 05.webp"
+            },
+            {
+              "name": "shoulder armor m 06",
+              "count": 0,
+              "id": "shoulder armor m 06.webp"
+            },
+            {
+              "name": "shoulder armor m 07",
+              "count": 0,
+              "id": "shoulder armor m 07.webp"
+            },
+            {
+              "name": "shoulder armor m 08",
+              "count": 0,
+              "id": "shoulder armor m 08.webp"
+            },
+            {
+              "name": "shoulder armor m 09",
+              "count": 0,
+              "id": "shoulder armor m 09.webp"
+            }
+          ]
+        },
+        {
+          "name": "weapon",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "weapon f 01",
+              "count": 0,
+              "id": "weapon f 01.webp"
+            },
+            {
+              "name": "weapon f 02",
+              "count": 0,
+              "id": "weapon f 02.webp"
+            },
+            {
+              "name": "weapon f 03",
+              "count": 0,
+              "id": "weapon f 03.webp"
+            },
+            {
+              "name": "weapon f 04",
+              "count": 0,
+              "id": "weapon f 04.webp"
+            },
+            {
+              "name": "weapon f 05",
+              "count": 0,
+              "id": "weapon f 05.webp"
+            },
+            {
+              "name": "weapon f 06",
+              "count": 0,
+              "id": "weapon f 06.webp"
+            },
+            {
+              "name": "weapon f 07",
+              "count": 0,
+              "id": "weapon f 07.webp"
+            },
+            {
+              "name": "weapon f 08",
+              "count": 0,
+              "id": "weapon f 08.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "male white",
+      "categories": [
+        {
+          "name": "backgrounds",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "01",
+              "count": 0,
+              "id": "01.webp"
+            },
+            {
+              "name": "02",
+              "count": 0,
+              "id": "02.webp"
+            },
+            {
+              "name": "03",
+              "count": 0,
+              "id": "03.webp"
+            },
+            {
+              "name": "04",
+              "count": 0,
+              "id": "04.webp"
+            },
+            {
+              "name": "05",
+              "count": 0,
+              "id": "05.webp"
+            },
+            {
+              "name": "06",
+              "count": 0,
+              "id": "06.webp"
+            }
+          ]
+        },
+        {
+          "name": "base body",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "base body m 01",
+              "count": 0,
+              "id": "base body m 01.webp"
+            }
+          ]
+        },
+        {
+          "name": "beard and jaw",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "beard and jaw m 01",
+              "count": 0,
+              "id": "beard and jaw m 01.webp"
+            },
+            {
+              "name": "beard and jaw m 02",
+              "count": 0,
+              "id": "beard and jaw m 02.webp"
+            },
+            {
+              "name": "beard and jaw m 03",
+              "count": 0,
+              "id": "beard and jaw m 03.webp"
+            },
+            {
+              "name": "beard and jaw m 04",
+              "count": 0,
+              "id": "beard and jaw m 04.webp"
+            },
+            {
+              "name": "beard and jaw m 05",
+              "count": 0,
+              "id": "beard and jaw m 05.webp"
+            },
+            {
+              "name": "beard and jaw m 06",
+              "count": 0,
+              "id": "beard and jaw m 06.webp"
+            },
+            {
+              "name": "beard and jaw m 07",
+              "count": 0,
+              "id": "beard and jaw m 07.webp"
+            },
+            {
+              "name": "beard and jaw m 08",
+              "count": 0,
+              "id": "beard and jaw m 08.webp"
+            },
+            {
+              "name": "beard and jaw m 09",
+              "count": 0,
+              "id": "beard and jaw m 09.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "body paint tattoo m 01",
+              "count": 0,
+              "id": "body paint tattoo m 01.webp"
+            },
+            {
+              "name": "body paint tattoo m 02",
+              "count": 0,
+              "id": "body paint tattoo m 02.webp"
+            },
+            {
+              "name": "body paint tattoo m 03",
+              "count": 0,
+              "id": "body paint tattoo m 03.webp"
+            },
+            {
+              "name": "body paint tattoo m 04",
+              "count": 0,
+              "id": "body paint tattoo m 04.webp"
+            },
+            {
+              "name": "body paint tattoo m 05",
+              "count": 0,
+              "id": "body paint tattoo m 05.webp"
+            },
+            {
+              "name": "body paint tattoo m 06",
+              "count": 0,
+              "id": "body paint tattoo m 06.webp"
+            },
+            {
+              "name": "body paint tattoo m 07",
+              "count": 0,
+              "id": "body paint tattoo m 07.webp"
+            },
+            {
+              "name": "body paint tattoo m 08",
+              "count": 0,
+              "id": "body paint tattoo m 08.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "body scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "body scars m 01",
+              "count": 0,
+              "id": "body scars m 01.webp"
+            },
+            {
+              "name": "body scars m 02",
+              "count": 0,
+              "id": "body scars m 02.webp"
+            },
+            {
+              "name": "body scars m 03",
+              "count": 0,
+              "id": "body scars m 03.webp"
+            },
+            {
+              "name": "body scars m 04",
+              "count": 0,
+              "id": "body scars m 04.webp"
+            },
+            {
+              "name": "body scars m 05",
+              "count": 0,
+              "id": "body scars m 05.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "ear",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "ear m 01",
+              "count": 0,
+              "id": "ear m 01.webp"
+            },
+            {
+              "name": "ear m 02",
+              "count": 0,
+              "id": "ear m 02.webp"
+            },
+            {
+              "name": "ear m 03",
+              "count": 0,
+              "id": "ear m 03.webp"
+            },
+            {
+              "name": "ear m 04",
+              "count": 0,
+              "id": "ear m 04.webp"
+            },
+            {
+              "name": "ear m 05",
+              "count": 0,
+              "id": "ear m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "earring",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "earring m 01",
+              "count": 0,
+              "id": "earring m 01.webp"
+            },
+            {
+              "name": "earring m 02",
+              "count": 0,
+              "id": "earring m 02.webp"
+            },
+            {
+              "name": "earring m 04",
+              "count": 0,
+              "id": "earring m 04.webp"
+            },
+            {
+              "name": "earring m 05",
+              "count": 0,
+              "id": "earring m 05.webp"
+            },
+            {
+              "name": "earring m 06",
+              "count": 0,
+              "id": "earring m 06.webp"
+            },
+            {
+              "name": "earring m 07",
+              "count": 0,
+              "id": "earring m 07.webp"
+            },
+            {
+              "name": "earring m 08",
+              "count": 0,
+              "id": "earring m 08.webp"
+            },
+            {
+              "name": "earring m 09",
+              "count": 0,
+              "id": "earring m 09.webp"
+            },
+            {
+              "name": "earring m 10",
+              "count": 0,
+              "id": "earring m 10.webp"
+            },
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            }
+          ]
+        },
+        {
+          "name": "eye",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eye m 01",
+              "count": 0,
+              "id": "eye m 01.webp"
+            },
+            {
+              "name": "eye m 02",
+              "count": 0,
+              "id": "eye m 02.webp"
+            },
+            {
+              "name": "eye m 03",
+              "count": 0,
+              "id": "eye m 03.webp"
+            },
+            {
+              "name": "eye m 04",
+              "count": 0,
+              "id": "eye m 04.webp"
+            },
+            {
+              "name": "eye m 05",
+              "count": 0,
+              "id": "eye m 05.webp"
+            },
+            {
+              "name": "eye m 06",
+              "count": 0,
+              "id": "eye m 06.webp"
+            },
+            {
+              "name": "eye m 07",
+              "count": 0,
+              "id": "eye m 07.webp"
+            },
+            {
+              "name": "eye m 08",
+              "count": 0,
+              "id": "eye m 08.webp"
+            },
+            {
+              "name": "eye m 09",
+              "count": 0,
+              "id": "eye m 09.webp"
+            },
+            {
+              "name": "eye m 10",
+              "count": 0,
+              "id": "eye m 10.webp"
+            },
+            {
+              "name": "eye m 11",
+              "count": 0,
+              "id": "eye m 11.webp"
+            }
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "eyebrow m 01",
+              "count": 0,
+              "id": "eyebrow m 01.webp"
+            },
+            {
+              "name": "eyebrow m 02",
+              "count": 0,
+              "id": "eyebrow m 02.webp"
+            },
+            {
+              "name": "eyebrow m 03",
+              "count": 0,
+              "id": "eyebrow m 03.webp"
+            },
+            {
+              "name": "eyebrow m 04",
+              "count": 0,
+              "id": "eyebrow m 04.webp"
+            },
+            {
+              "name": "eyebrow m 05",
+              "count": 0,
+              "id": "eyebrow m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "face paint tattoo",
+          "operation": "multiply",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face paint tattoo 01",
+              "count": 0,
+              "id": "face paint tattoo 01.webp"
+            },
+            {
+              "name": "face paint tattoo 02",
+              "count": 0,
+              "id": "face paint tattoo 02.webp"
+            },
+            {
+              "name": "face paint tattoo 03",
+              "count": 0,
+              "id": "face paint tattoo 03.webp"
+            },
+            {
+              "name": "face paint tattoo 04",
+              "count": 0,
+              "id": "face paint tattoo 04.webp"
+            },
+            {
+              "name": "face paint tattoo 05",
+              "count": 0,
+              "id": "face paint tattoo 05.webp"
+            },
+            {
+              "name": "face paint tattoo 06",
+              "count": 0,
+              "id": "face paint tattoo 06.webp"
+            },
+            {
+              "name": "face paint tattoo 07",
+              "count": 0,
+              "id": "face paint tattoo 07.webp"
+            },
+            {
+              "name": "face paint tattoo 08",
+              "count": 0,
+              "id": "face paint tattoo 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "face scars",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "face scars m 01",
+              "count": 0,
+              "id": "face scars m 01.webp"
+            },
+            {
+              "name": "face scars m 02",
+              "count": 0,
+              "id": "face scars m 02.webp"
+            },
+            {
+              "name": "face scars m 03",
+              "count": 0,
+              "id": "face scars m 03.webp"
+            },
+            {
+              "name": "face scars m 04",
+              "count": 0,
+              "id": "face scars m 04.webp"
+            },
+            {
+              "name": "face scars m 05",
+              "count": 0,
+              "id": "face scars m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "hair",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "hair m 01",
+              "count": 0,
+              "id": "hair m 01.webp"
+            },
+            {
+              "name": "hair m 02",
+              "count": 0,
+              "id": "hair m 02.webp"
+            },
+            {
+              "name": "hair m 03",
+              "count": 0,
+              "id": "hair m 03.webp"
+            },
+            {
+              "name": "hair m 04",
+              "count": 0,
+              "id": "hair m 04.webp"
+            },
+            {
+              "name": "hair m 05",
+              "count": 0,
+              "id": "hair m 05.webp"
+            },
+            {
+              "name": "hair m 06",
+              "count": 0,
+              "id": "hair m 06.webp"
+            },
+            {
+              "name": "hair m 07",
+              "count": 0,
+              "id": "hair m 07.webp"
+            },
+            {
+              "name": "hair m 08",
+              "count": 0,
+              "id": "hair m 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "mouth and teeth",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "mouth and teeth m 01",
+              "count": 0,
+              "id": "mouth and teeth m 01.webp"
+            },
+            {
+              "name": "mouth and teeth m 02",
+              "count": 0,
+              "id": "mouth and teeth m 02.webp"
+            },
+            {
+              "name": "mouth and teeth m 03",
+              "count": 0,
+              "id": "mouth and teeth m 03.webp"
+            },
+            {
+              "name": "mouth and teeth m 04",
+              "count": 0,
+              "id": "mouth and teeth m 04.webp"
+            },
+            {
+              "name": "mouth and teeth m 05",
+              "count": 0,
+              "id": "mouth and teeth m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "necklace",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "necklace m 01",
+              "count": 0,
+              "id": "necklace m 01.webp"
+            },
+            {
+              "name": "necklace m 02",
+              "count": 0,
+              "id": "necklace m 02.webp"
+            },
+            {
+              "name": "necklace m 03",
+              "count": 0,
+              "id": "necklace m 03.webp"
+            },
+            {
+              "name": "necklace m 04",
+              "count": 0,
+              "id": "necklace m 04.webp"
+            },
+            {
+              "name": "necklace m 05",
+              "count": 0,
+              "id": "necklace m 05.webp"
+            },
+            {
+              "name": "necklace m 06",
+              "count": 0,
+              "id": "necklace m 06.webp"
+            },
+            {
+              "name": "necklace m 07",
+              "count": 0,
+              "id": "necklace m 07.webp"
+            },
+            {
+              "name": "necklace m 08",
+              "count": 0,
+              "id": "necklace m 08.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "nose m 01",
+              "count": 0,
+              "id": "nose m 01.webp"
+            },
+            {
+              "name": "nose m 02",
+              "count": 0,
+              "id": "nose m 02.webp"
+            },
+            {
+              "name": "nose m 03",
+              "count": 0,
+              "id": "nose m 03.webp"
+            },
+            {
+              "name": "nose m 04",
+              "count": 0,
+              "id": "nose m 04.webp"
+            },
+            {
+              "name": "nose m 05",
+              "count": 0,
+              "id": "nose m 05.webp"
+            }
+          ]
+        },
+        {
+          "name": "nose piercing",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "nose piercing m 01",
+              "count": 0,
+              "id": "nose piercing m 01.webp"
+            },
+            {
+              "name": "nose piercing m 02",
+              "count": 0,
+              "id": "nose piercing m 02.webp"
+            },
+            {
+              "name": "nose piercing m 03",
+              "count": 0,
+              "id": "nose piercing m 03.webp"
+            },
+            {
+              "name": "nose piercing m 04",
+              "count": 0,
+              "id": "nose piercing m 04.webp"
+            },
+            {
+              "name": "nose piercing m 05",
+              "count": 0,
+              "id": "nose piercing m 05.webp"
+            },
+            {
+              "name": "nose piercing m 06",
+              "count": 0,
+              "id": "nose piercing m 06.webp"
+            }
+          ]
+        },
+        {
+          "name": "shoulder armor",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "shoulder armor m 01",
+              "count": 0,
+              "id": "shoulder armor m 01.webp"
+            },
+            {
+              "name": "shoulder armor m 02",
+              "count": 0,
+              "id": "shoulder armor m 02.webp"
+            },
+            {
+              "name": "shoulder armor m 03",
+              "count": 0,
+              "id": "shoulder armor m 03.webp"
+            },
+            {
+              "name": "shoulder armor m 04",
+              "count": 0,
+              "id": "shoulder armor m 04.webp"
+            },
+            {
+              "name": "shoulder armor m 05",
+              "count": 0,
+              "id": "shoulder armor m 05.webp"
+            },
+            {
+              "name": "shoulder armor m 06",
+              "count": 0,
+              "id": "shoulder armor m 06.webp"
+            },
+            {
+              "name": "shoulder armor m 07",
+              "count": 0,
+              "id": "shoulder armor m 07.webp"
+            },
+            {
+              "name": "shoulder armor m 08",
+              "count": 0,
+              "id": "shoulder armor m 08.webp"
+            },
+            {
+              "name": "shoulder armor m 09",
+              "count": 0,
+              "id": "shoulder armor m 09.webp"
+            }
+          ]
+        },
+        {
+          "name": "weapon",
+          "operation": "source-over",
+          "traits": [
+            {
+              "name": "empty",
+              "count": 0,
+              "id": "empty.webp"
+            },
+            {
+              "name": "weapon f 01",
+              "count": 0,
+              "id": "weapon f 01.webp"
+            },
+            {
+              "name": "weapon f 02",
+              "count": 0,
+              "id": "weapon f 02.webp"
+            },
+            {
+              "name": "weapon f 03",
+              "count": 0,
+              "id": "weapon f 03.webp"
+            },
+            {
+              "name": "weapon f 04",
+              "count": 0,
+              "id": "weapon f 04.webp"
+            },
+            {
+              "name": "weapon f 05",
+              "count": 0,
+              "id": "weapon f 05.webp"
+            },
+            {
+              "name": "weapon f 06",
+              "count": 0,
+              "id": "weapon f 06.webp"
+            },
+            {
+              "name": "weapon f 07",
+              "count": 0,
+              "id": "weapon f 07.webp"
+            },
+            {
+              "name": "weapon f 08",
+              "count": 0,
+              "id": "weapon f 08.webp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

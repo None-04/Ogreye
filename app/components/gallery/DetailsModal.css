@@ -1,0 +1,85 @@
+
+
+.modal-transparent {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    width: 65%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.modal-transparent::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+@media screen and (max-width: 768px) {
+    .modal-transparent::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        pointer-events: none; /* Ignore mouse events so the user can still scroll */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .modal-transparent {
+        width: 75%;
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modal-transparent {
+        width: 55%;
+        height: 55%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 800px) {
+    .modal-transparent {
+        height: 88%;
+        width: 72%;
+    }
+}
+
+
+.button-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.button-container button:first-child {
+    margin-right: 10px;
+}
+
+.modal-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.modal-button.left {
+    left: -15px;
+    transform: translateY(-50%) scaleX(-1);
+}
+
+.modal-button.right {
+    right: -15px;
+}
+
+.animate {
+    transition: transform 0.2s ease-out !important;
+}
