@@ -325,7 +325,7 @@ const ImageGallery: React.FC = () => {
                 }
 
                 const canvas = document.createElement('canvas');
-                const renderSize = { width: 500, height: 500 };
+                const renderSize = { width: 800, height: 800 };
                 canvas.width = renderSize.width;
                 canvas.height = renderSize.height;
 
