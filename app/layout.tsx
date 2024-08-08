@@ -54,7 +54,7 @@ export default function RootLayout({
 
         <body className={`${edo.variable} ${inter.className} ${league_gothic.className}`}>
         <main
-            className="main flex min-h-screen flex-col items-center justify-center bg-cover bg-[url('/blackaeonsbg.png')]">
+            className="main flex min-h-screen flex-col items-center justify-center ">
             {children}
         </main>
         </body>

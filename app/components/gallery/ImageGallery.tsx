@@ -37,12 +37,18 @@ const useWindowSize = () => {
     return { size, isLoaded };
 };
 
+var filterB:string[] = [];
+var map:Map<number, number> = new Map();
+
+for (let i = 0; i < 3680; i++) {
+    map.set(i, i);
+}
 
 const ImageGallery: React.FC = () => {
     const { size: { width, height }, isLoaded } = useWindowSize();
     const [metadata, setMetadata] = useState<Record<string, MetaData>>({});
     const [selectedMeta, setSelectedMeta] = useState<MetaData | null>(null);
-    const [selectedImage, setSelectedImage] = useState<number>(0);
+    const [selectedImage, setSelectedImage] = useState<number>();
     const [collection, setCollection] = useState<collection>();
     const [traits, setTraits] = useState<TraitsData>({});
     const [filters, setFilters] = useState<FiltersState>({});
@@ -53,7 +59,6 @@ const ImageGallery: React.FC = () => {
     const [selectedMetaN, setselectedMetaN] = useState<attributes[]>([]);
 
 
-
     type SortCriterion = 'rarity' | 'number';
     type SortOrder = 'asc' | 'desc';
     const [sort, setSort] = useState<{ criterion: SortCriterion; order: SortOrder }>({ criterion: 'number', order: 'asc' });
@@ -61,6 +66,7 @@ const ImageGallery: React.FC = () => {
     const TOTAL_IMAGES = 3680;
     const MOBILE_THRESH_HOLD = 768;
     const imageList = Array.from({ length: TOTAL_IMAGES }, (_, index) => `/gallery/${index}.webp`);
+
 
     useEffect(() => {
 
@@ -111,57 +117,6 @@ const ImageGallery: React.FC = () => {
         });
     };
 
-    const getFilteredImages = () => {
-        // If there's a search term, prioritize filtering by it
-        if (searchValue) {
-            const filteredByIdOrName = imageList.filter(image => {
-                const imageName = image.split('/').pop()?.split('.')[0];
-                const meta = metadata[imageName || ''];
-                if (!meta) return false;
-
-                // Check if the searchTerm matches the id or the name (which is a number)
-                return meta.id === searchValue || meta.meta.name === searchValue;
-            });
-
-            // If no images match the searchTerm, return an empty array
-            if (filteredByIdOrName.length === 0) {
-                return [];
-            }
-
-            return filteredByIdOrName;
-        }
-
-        // Existing filter logic
-        let filtered = imageList.filter(image => {
-            const imageName = image.split('/').pop()?.split('.')[0];
-            const meta = metadata[imageName || ''];
-            if (!meta) return false;
-
-            return Object.entries(filters).every(([traitType, values]) => {
-                if (values.length === 0) return true;
-                const attribute = meta.meta.attributes.find(attr => attr.trait_type === traitType);
-                return attribute && values.includes(attribute.value);
-            });
-        });
-
-        // Existing sorting logic
-        filtered = filtered.sort((a, b) => {
-            const nameA = a.split('/').pop()?.split('.')[0] || '';
-            const nameB = b.split('/').pop()?.split('.')[0] || '';
-            const metaA = metadata[nameA];
-            const metaB = metadata[nameB];
-
-            if (sort.criterion === 'rarity') {
-                return sort.order === 'asc' ? (metaA?.rarity || 0) - (metaB?.rarity || 0) : (metaB?.rarity || 0) - (metaA?.rarity || 0);
-            } else {
-                const numberA = parseInt(nameA, 10);
-                const numberB = parseInt(nameB, 10);
-                return sort.order === 'asc' ? numberA - numberB : numberB - numberA;
-            }
-        });
-
-        return filtered;
-    };
 
 
     const increaseColumnCount = () => {
@@ -199,11 +154,9 @@ const ImageGallery: React.FC = () => {
     const columnWidth = (isFilterVisible || width < MOBILE_THRESH_HOLD) ? (Math.floor(width / columnCount) - 4) : (Math.floor(0.75 * width / columnCount));
 
     const handleImageClick = (imageIndex: number, filteredImages: string[]) => {
-        setSelectedImageIndex(imageIndex);
-        const imageName = filteredImages[imageIndex].split('/').pop()?.split('.')[0];
-        const meta = metadata[imageName || ''];
+        setSelectedImageIndex(imageIndex );
+        const meta = metadata["" || ''];
         setSelectedMeta(meta || null);
-        setSelectedImage(imageIndex);
 
 
         let att:attributes[] = [];
@@ -214,7 +167,9 @@ const ImageGallery: React.FC = () => {
                 break;
             }
         }
-
+        let d = map.get(imageIndex);
+        if(d == undefined) d = 1;
+        setSelectedImage(d + 1)
         setselectedMetaN(att)
         
     };
@@ -228,6 +183,8 @@ const ImageGallery: React.FC = () => {
             handleImageClick(selectedImageIndex + 1, filteredImages);
         }
     };
+
+
 
     function generateNFT(imageIndex: number) {
         let scriptino: string = "";
@@ -271,6 +228,10 @@ const ImageGallery: React.FC = () => {
 
             const selectedTraitIndexes = s.split(",")
 
+
+            if(collection == undefined){
+                return;
+            }
             const conf = collection!.configurations[Number(c)];
 
             const traits: string[] = [];
@@ -338,13 +299,19 @@ const ImageGallery: React.FC = () => {
             async function renderImage(urls: string[], operations: any, order: any) {
 
                 if (generatedNft[imageIndex]) {
-
-                    (document.querySelector(String(imageIndex)) as HTMLImageElement).src = generatedNft[imageIndex];
+                    if(document != undefined){
+                        if((document.getElementById(String(imageIndex)) as HTMLImageElement)!= undefined){
+                            (document.getElementById(String(imageIndex)) as HTMLImageElement).src = generatedNft[imageIndex];
+                        }
+                    }
                     return generatedNft[imageIndex]
                 }
 
+                if(document == undefined){
+                    return;
+                }
                 const canvas = document.createElement('canvas');
-                const renderSize = { width: 800, height: 800 };
+                const renderSize = { width: 500, height: 500 };
                 canvas.width = renderSize.width;
                 canvas.height = renderSize.height;
 
@@ -358,14 +325,17 @@ const ImageGallery: React.FC = () => {
                     ctx!.globalCompositeOperation = operations[n];
                     ctx!.drawImage(images[n], 0, 0, canvas.width, canvas.height);
                 }
-
+                if(document == undefined){
+                    return;
+                }
                 let img = document.getElementById(String(imageIndex))
-                img!.setAttribute('src', canvas.toDataURL("image/png"));
                 generatedNft[imageIndex] = canvas.toDataURL("image/png");
+                if(img == undefined){return  generatedNft[imageIndex]}
+                img!.setAttribute('src', canvas.toDataURL("image/png"));
             }
         });
     }
-
+    
     function fileterCha(conf: string, cates: string, trat:string) : void{
         
         filtes.forEach((s)=>{
@@ -414,7 +384,69 @@ const ImageGallery: React.FC = () => {
                 }
             }
         })
-        console.log(filtes)
+        filterB = [];
+        filtes.forEach(cate=>{
+            cate.cate.forEach(a =>{
+                a.trats.forEach(t=>{
+                    filterB.push(cate.names+a.name+t)
+                })
+            })
+        })
+
+        map.clear();
+        let inserti = 0;
+        if(filterB.length == 0){
+            for(let i = 0; i < TOTAL_IMAGES; i++){
+                map.set(i, i);
+            }
+            return;
+        }
+        for(let i = 0; i < TOTAL_IMAGES; i++){
+
+
+            while (inserti < TOTAL_IMAGES) {
+        
+                let fa = false;
+                let m:meta = getmetadataNFT(inserti);
+                let attB:String[] = []
+                m.attributes.forEach(t=>{
+                    attB.push(m.configuration+t.trait_type+t.value +  ".webp")
+                })
+                for(let f of filterB){
+                    if(!attB.includes(f)){
+                        fa = true;
+                    }
+                }
+
+                if(fa){
+                    inserti++;
+                    continue;
+                }
+                break;
+            }
+            if (inserti >= TOTAL_IMAGES) {
+                for(; i < TOTAL_IMAGES; i++){
+                    map.set(i, -1);
+                }
+            }
+
+            map.set(i, inserti++);
+
+        }
+
+    }
+    
+
+    function getmetadataNFT(i:number) : meta {
+        let att:meta = {attributes:[], configuration:"", name:""};
+
+        for(let t of metadataN!){
+            if(Number(t.meta.name) == i){
+                att = t.meta;
+                break;
+            }
+        }
+        return att;
     }
 
     const Cell: React.FC<{ columnIndex: number; rowIndex: number; style: React.CSSProperties }> = ({
@@ -423,38 +455,18 @@ const ImageGallery: React.FC = () => {
         style
     }) => {
 
-        const imageIndex = rowIndex * columnCount + columnIndex;
+        let  imageIndex = rowIndex * columnCount + columnIndex;
+        
         if (imageIndex >= TOTAL_IMAGES) return null;
-
-        const image = filteredImages[imageIndex];
-
-        let att:meta = {attributes:[], configuration:"", name:""};
-
-        for(let t of metadataN!){
-            if(Number(t.meta.name) == imageIndex){
-                att = t.meta;
-                break;
-            }
+        
+        imageIndex = map.get(imageIndex)!;
+        if(searchValue.length != 0){
+            if(imageIndex > 0) return null;
+            imageIndex = Number(searchValue)
         }
-        let s = false;
-        filtes.forEach((t)=>{
-            if(t.names == att.configuration){
-                t.cate.forEach(g=>{
-                    let nemes:string = g.name;
-                    att.attributes.forEach(p=>{
-                        if(p.trait_type == nemes){
-                            if(g.trats.includes(p.value))
-                            {
-                                s = true;
-                            }
-                        }
-                    })
+        
 
-                })
-            }
-        })
-
-        if(s)return
+        if (imageIndex == -1) return null;
 
         if (generatedNft[imageIndex]) {
 
@@ -490,7 +502,7 @@ const ImageGallery: React.FC = () => {
 
 
                             src={`/loading.gif`}
-
+                            priority={true} 
                             id={`${imageIndex}`}
                             alt={`Image ${imageIndex + 1}`}
                             onClick={() => handleImageClick(imageIndex, filteredImages)}
@@ -541,10 +553,9 @@ const ImageGallery: React.FC = () => {
                                 {Cell}
                             </Grid>
                         )}
-                        {selectedMeta && (
-                            <DetailsModal onClose={() => setSelectedMeta(null)} onNext={handleNext}
-                                onPrevious={handlePrevious}>
-                                <ImageDetails selectedMeta={selectedMeta} selectedImage={selectedImage}/>
+                        {selectedImage && (
+                            <DetailsModal onClose={() => {setSelectedMeta(null); setSelectedImage(undefined)}} onNext={handleNext} onPrevious={handlePrevious}>
+                                <ImageDetails selectedImage={selectedImage - 1}/>
                             </DetailsModal>
                         )}
                     </div>

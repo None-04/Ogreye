@@ -5,7 +5,6 @@ import './ImageDetails.css';
 import generatedNft from './generated';
 
 interface ImageDetailsProps {
-    selectedMeta: MetaData;
     selectedImage: number;
 }
 
@@ -32,84 +31,27 @@ const PlaceholderMetadataItem: React.FC = () => (
     </li>
 );
 
-const ImageDetails: React.FC<ImageDetailsProps> = ({ selectedMeta, selectedImage }) => {
+const ImageDetails: React.FC<ImageDetailsProps> = ({ selectedImage }) => {
     const imageUrl = selectedImage || '';
     const n = (selectedImage ? selectedImage : 0)
     const isDesktop = typeof window !== 'undefined' && window.innerWidth > 768;
     
-    const placeholdersNeeded = isDesktop ? 4 - Math.min(selectedMeta.meta.attributes.length, 4) : 0;
     
     return (
 
-        <div className="image-metadata-container">
-            <div className="metadata-grid-column">
-                <div>
-                    <Image
-                        src={generatedNft[Number(n)]}
-                        alt={selectedMeta.meta.name}
-                        width={400}
-                        height={400}
-                        className="border-8 border-black rounded image-in-details"
-                    />
-                    <div className="details-modal-header">
-                        <h2 className="pl-1">{selectedMeta.meta.name}</h2>
-                        <div className="rarity invisible-element">
-                                <Image
-                                    src={getRankingImage(selectedMeta.rarity)}
-                                    alt="ranking"
-                                    width={80}
-                                    height={80}
-                                    className="pr-1 pb-1 rarity-image"
-                                />
-                            </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="">
-                <div className="metadata-grid-column">
-                    <div>
-                        <h2 className="attributes-header">ATTRIBUTES</h2>
-                        <div className="metadata-content">
-                            <div className="trait-column">
-                                {selectedMeta.meta.attributes.slice(0, 4).map(attr => (
-                                    <li key={attr.trait_type} className="trait-item">
-                                        <div className="trait-icon-name">
-                                            <img src="/1_triangle_aeons.png" alt="icon" className="trait-icon"/>
-                                            <div className="trait-name">
-                                                <strong>{attr.trait_type}</strong>
-                                            </div>
-                                        </div>
-                                        <div className="trait-value ml-6">
-                                            {attr.value === "Empty" ? "-" : attr.value}
-                                        </div>
-                                    </li>
-                                ))}
-                                {Array(placeholdersNeeded).fill(<PlaceholderMetadataItem />)}
-                            </div>
-                            <div className="trait-column">
-                                {selectedMeta.meta.attributes.slice(4).map(attr => (
-                                    <li key={attr.trait_type} className="trait-item">
-                                        <div className="trait-icon-name">
-                                            <img src="/1_triangle_aeons.png" alt="icon" className="trait-icon"/>
-                                            <div className="trait-name">
-                                                <strong>{attr.trait_type}</strong>
-                                            </div>
-                                        </div>
-                                        <div className="trait-value ml-6">
-                                            {attr.value === "Empty" ? "-" : attr.value}
-                                        </div>
-                                    </li>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+    <div className="image-metadata-container">
+        <div className="metadata-grid-column">
+            <div>
+                <Image
+                    src={generatedNft[n]}
+                    alt={"" + n}
+                    width={400}
+                    height={400}
+                    className="border-8 border-black rounded image-in-details"
+                />
             </div>
         </div>
-
+    </div>
 
     );
 };
