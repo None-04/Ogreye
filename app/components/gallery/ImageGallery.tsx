@@ -180,7 +180,8 @@ const ImageGallery: React.FC = () => {
         });
     };
 
-    const filteredImages = getFilteredImages();
+    const filteredImages:string[] = [];
+    filteredImages.length = TOTAL_IMAGES; 
 
     const getColumnCount = useCallback(() => {
         if (width >= 1024) return 6;
