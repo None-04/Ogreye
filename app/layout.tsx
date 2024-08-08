@@ -21,27 +21,23 @@ const edo = localFont({
 })
 
 export const metadata: Metadata = {
-    title: 'Aeons',
-    description: 'Aeons are vibrant, chaotic, and rebellious beings, brought to life in a neo-expressionist style. Embodying a pursuit of exploration and a dream to bring art to the eternal chain, Aeons merge the worlds of fine art and PFPs, introducing a fresh and unique style to ordinals.',
+    title: 'Khishwe',
     authors: [
         {
-            name: 'ei0haro',
-            url: 'https://x.com/ei0haro'
+            name: 'Khishwe',
         }
     ],
     icons: {
-        icon: '/favicon.ico'
+        icon: '/images/favicon.ico'
     },
     openGraph: {
-        title: 'Aeons',
-        description: 'Aeons are vibrant, chaotic, and rebellious beings, brought to life in a neo-expressionist style. Embodying a pursuit of exploration and a dream to bring art to the eternal chain, Aeons merge the worlds of fine art and PFPs, introducing a fresh and unique style to ordinals.',
-        url: 'https://aeonsbtc.com',
+        title: 'Khishwe',
         images: [
             {
-                url: 'https://aeonsbtc.com/Number1.png',
+                url: '',
                 width: 1200,
                 height: 630,
-                alt: 'Aeons',
+                alt: 'Khishwe',
             },
         ],
 
@@ -59,7 +55,6 @@ export default function RootLayout({
         <body className={`${edo.variable} ${inter.className} ${league_gothic.className}`}>
         <main
             className="main flex min-h-screen flex-col items-center justify-center bg-cover bg-[url('/blackaeonsbg.png')]">
-            <Nav/>
             {children}
         </main>
         </body>

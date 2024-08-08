@@ -21,8 +21,8 @@ const NavBar = () => {
                 <Link href="/">
                     <Image
                         className=''
-                        src='/Aeonsmainlogo.png'
-                        alt='Aeons logo'
+                        src='/favicon.ico'
+                        alt=''
                         width={180}
                         height={150}
                     />
@@ -58,29 +58,6 @@ const NavBar = () => {
                                 <line x1="6" y1="6" x2="18" y2="18"/>
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[250px] link-z-index">
-                            <li className="border-b border-gray-400 my-8 uppercase link-z-index">
-                                <Link href="/gallery" className="text-4xl font-bold text-center uppercase mx-2 "
-                                      onClick={handleClick}>
-                                    <span>Galle<span className='text-[#e6a40e]'>ry</span></span>
-                                </Link>
-                            </li>
-
-                                <li className="border-b border-gray-400 my-8 uppercase link-z-index">
-                                    <Link href="https://twitter.com/AeonsBTC"
-                                          className="text-4xl font-bold text-center uppercase mx-2"
-                                          onClick={handleClick}>
-                                        <span>Twitt<span className='text-[#e6a40e]'>er</span></span>
-                                    </Link>
-                                </li>
-                                <li className="border-b border-gray-400 my-8 uppercase link-z-index">
-                                    <Link href="https://discord.gg/2zqeHXZ6Tn"
-                                          className="text-4xl font-bold text-center uppercase mx-2"
-                                          onClick={handleClick}>
-                                        <span>Disco<span className='text-[#e6a40e]'>rd</span></span>
-                                    </Link>
-                                </li>
-                        </ul>
                     </div>
                 </div>
             </section>
