@@ -519,6 +519,7 @@ const ImageGallery: React.FC = () => {
     };
 
     let select = undefined;
+    let mapSelect = 0;
     if (selectedImage != undefined){
         select = map.get(selectedImage);
         if (select == undefined) select = 0;
@@ -529,6 +530,7 @@ const ImageGallery: React.FC = () => {
             if(img == undefined){return}
             img.setAttribute('src', canvas.toDataURL("image/png"));
         });
+        mapSelect = select;
         select = -1;
     }
     return (
@@ -567,9 +569,9 @@ const ImageGallery: React.FC = () => {
                                 {Cell}
                             </Grid>
                         )}
-                        {select != undefined && selectedImage != undefined && (
+                        {select != undefined && (
                             <DetailsModal onClose={() => {setSelectedMeta(null); setSelectedImage(undefined)}} onNext={handleNext} onPrevious={handlePrevious}>
-                                <ImageDetails mapSelectedImage={select} selectedImage={selectedImage}/>
+                                <ImageDetails mapSelectedImage={select} selectedImage={mapSelect}/>
                             </DetailsModal>
                         )}
                     </div>
