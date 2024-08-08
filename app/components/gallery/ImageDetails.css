@@ -1,157 +1,54 @@
-.metadata-grid-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra orizzontalmente */
-    height: 100%;
-    overflow: auto;
-}
-
-.details-modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    width: 100%;
-    color: black;
-    padding-top: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Helvetica', sans-serif;
-}
-
-@media screen and (min-width: 1024px) {
-    .details-modal-header {
-        font-size: 20px;
-    }
-}
-
-.metadata-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 100%;
-    color: black;
-}
-
-.trait-column {
-    display: flex;
-    flex-direction: column;
-    width: 105px; /* Larghezza fissa su mobile */
-}
-
-@media screen and (min-width: 768px) {
-    .trait-column {
-        width: 200px; /* Larghezza fissa su desktop */
-        padding-left: 20px;
-    }
-}
-
-.attributes-header {
-    grid-column: 1;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-align: left;
-    font-family: 'Helvetica', sans-serif;
-}
-
-@media screen and (min-width: 1024px) {
-    .attributes-header {
-        font-size: 35px;
-    }
-}
-
-.trait-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.trait-icon-name {
-    display: flex;
-    align-items: center;
-}
-
-.trait-icon {
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
-    margin-right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .trait-icon {
-        width: 12px;
-        height: 12px;
-    }
-}
-
 .image-metadata-container {
-    display: flex;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-
-@media screen and (max-width: 369px) {
-    .image-in-details { /* Evita che l'immagine esca dallo schermo su piccoli dispositivi mobili */
-        width: 95%;
-        height: auto;
-    }
-
-    .details-modal-header {
-        width: 95%;
-    }
-}
-
-.trait-name, .trait-value {
-    font-size: 12px;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: bold;
-}
-
-@media screen and (min-width: 1024px) {
-    .trait-name {
-        font-size: 20px;
-    }
-
-    .trait-value {
-        font-size: 18px;
-    }
-}
-
-.center-container2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.detail-buttons {
-    background-color: #e6a40e;
-    border-radius: 7px;
-    padding: 0.5rem;
-    color: black;
-    font-size: 11px;
-    font-family: 'Helvetica', sans-serif;
-}
-
-@media screen and (min-width: 1024px) {
-    .detail-buttons {
-        font-size: 18px;
-    }
-}
-
-.image-details-button-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-bottom: 8px;
+    flex-direction: column; /* Disposizione verticale */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
 }
 
-.invisible-element {
-    visibility: hidden;
+.metadata-grid-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+}
+
+.selected-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Spazio tra il testo e l'immagine */
+}
+
+.selected-image-text {
+    font-size: 24px;
+    color: #e6a40e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-right: 10px;
+    text-align: center;
+}
+
+.selected-image-value {
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-in-details {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centra l'immagine */
 }

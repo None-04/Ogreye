@@ -167,7 +167,6 @@ const ImageGallery: React.FC = () => {
                 break;
             }
         }
-        console.log(selectedImage)
         setSelectedImage(imageIndex)
         setselectedMetaN(att)
         
@@ -185,7 +184,7 @@ const ImageGallery: React.FC = () => {
 
 
 
-    function generateNFT(imageIndex: number) {
+    function generateNFT(imageIndex: number, size:{width:number, height:number}, onComplete:(canvas:HTMLCanvasElement)=>void) {
         let scriptino: string = "";
         const fetchScriptino = async () => {
             try {
@@ -297,22 +296,12 @@ const ImageGallery: React.FC = () => {
 
             async function renderImage(urls: string[], operations: any, order: any) {
 
-                if (generatedNft[imageIndex]) {
-                    if(document != undefined){
-                        if((document.getElementById(String(imageIndex)) as HTMLImageElement)!= undefined){
-                            (document.getElementById(String(imageIndex)) as HTMLImageElement).src = generatedNft[imageIndex];
-                        }
-                    }
-                    return generatedNft[imageIndex]
-                }
-
                 if(document == undefined){
                     return;
                 }
                 const canvas = document.createElement('canvas');
-                const renderSize = { width: 500, height: 500 };
-                canvas.width = renderSize.width;
-                canvas.height = renderSize.height;
+                canvas.width = size.width;
+                canvas.height = size.height;
 
                 const ctx = canvas.getContext("2d");
                 ctx!.imageSmoothingEnabled = false;
@@ -327,10 +316,7 @@ const ImageGallery: React.FC = () => {
                 if(document == undefined){
                     return;
                 }
-                let img = document.getElementById(String(imageIndex))
-                generatedNft[imageIndex] = canvas.toDataURL("image/png");
-                if(img == undefined){return  generatedNft[imageIndex]}
-                img!.setAttribute('src', canvas.toDataURL("image/png"));
+                onComplete(canvas);
             }
         });
     }
@@ -491,7 +477,13 @@ const ImageGallery: React.FC = () => {
                 </div>
             );
         } else {
-            generateNFT(mapImageIndex);
+            generateNFT(mapImageIndex, {width:500, height:500}, (canvas) => {
+                
+                let img = document.getElementById(String(mapImageIndex))
+                generatedNft[mapImageIndex] = canvas.toDataURL("image/png");
+                if(img == undefined){return  generatedNft[mapImageIndex]}
+                img.setAttribute('src', canvas.toDataURL("image/png"));
+            });
             return (
                 <div style={style} className="p-1">
 
@@ -521,10 +513,13 @@ const ImageGallery: React.FC = () => {
         select = map.get(selectedImage);
         if (select == undefined) select = 0;
 
-        if (!generatedNft[selectedImage])
-        {
-            generateNFT(select);
-        }
+        generateNFT(select, {width:800, height:800}, (canvas) => {
+            
+            let img = document.getElementById("selectedImage")
+            if(img == undefined){return}
+            img.setAttribute('src', canvas.toDataURL("image/png"));
+        });
+        select = -1;
     }
     return (
         <div className="expand-flex">
@@ -562,9 +557,9 @@ const ImageGallery: React.FC = () => {
                                 {Cell}
                             </Grid>
                         )}
-                        {select != undefined && (
+                        {select != undefined && selectedImage != undefined && (
                             <DetailsModal onClose={() => {setSelectedMeta(null); setSelectedImage(undefined)}} onNext={handleNext} onPrevious={handlePrevious}>
-                                <ImageDetails selectedImage={select}/>
+                                <ImageDetails mapSelectedImage={select} selectedImage={selectedImage}/>
                             </DetailsModal>
                         )}
                     </div>

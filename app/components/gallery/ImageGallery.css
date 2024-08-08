@@ -73,6 +73,32 @@
 }
 
 
+.selected-image-text {
+    font-size: 24px;
+    font-family: 'Helvetica', sans-serif;
+    color: #e6a40e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.selected-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selected-image-value {
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #e6a40e;
+    padding: 5px 10px;
+    border-radius: 8px;
+    animation: pulse 1.5s infinite;
+}
+
 
 
 
