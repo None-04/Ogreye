@@ -52,9 +52,8 @@ const ImageDetails: React.FC<ImageDetailsProps> = ({ selectedMeta, selectedImage
                         className="border-8 border-black rounded image-in-details"
                     />
                     <div className="details-modal-header">
-                        <h2 className="pl-1">AEON {selectedMeta.meta.name}</h2>
+                        <h2 className="pl-1">{selectedMeta.meta.name}</h2>
                         <div className="rarity invisible-element">
-                            <h2 className="pr-1">RARITY {selectedMeta.rarity}</h2>
                                 <Image
                                     src={getRankingImage(selectedMeta.rarity)}
                                     alt="ranking"
