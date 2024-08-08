@@ -187,7 +187,7 @@ const ImageGallery: React.FC = () => {
         }
     };
     const handleNext = () => {
-        if (selectedImageIndex !== null && selectedImageIndex < filteredImages.length - 1) {
+        if (selectedImageIndex !== null && map.get(selectedImageIndex + 1) != -1) {
             handleImageClick(selectedImageIndex + 1, filteredImages);
         }
     };
