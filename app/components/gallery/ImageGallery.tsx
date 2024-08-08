@@ -167,9 +167,8 @@ const ImageGallery: React.FC = () => {
                 break;
             }
         }
-        let d = map.get(imageIndex);
-        if(d == undefined) d = 1;
-        setSelectedImage(d + 1)
+        console.log(selectedImage)
+        setSelectedImage(imageIndex)
         setselectedMetaN(att)
         
     };
@@ -459,16 +458,16 @@ const ImageGallery: React.FC = () => {
         
         if (imageIndex >= TOTAL_IMAGES) return null;
         
-        imageIndex = map.get(imageIndex)!;
         if(searchValue.length != 0){
             if(imageIndex > 0) return null;
             imageIndex = Number(searchValue)
         }
+        let mapImageIndex = map.get(imageIndex)!;
         
 
-        if (imageIndex == -1) return null;
+        if (mapImageIndex == -1) return null;
 
-        if (generatedNft[imageIndex]) {
+        if (generatedNft[mapImageIndex]) {
 
             return (
                 <div style={style} className="p-1">
@@ -478,10 +477,10 @@ const ImageGallery: React.FC = () => {
                             className="object-cover w-full h-full pixelated"
 
 
-                            src={`${generatedNft[imageIndex]}`}
+                            src={`${generatedNft[mapImageIndex]}`}
 
-                            id={`${imageIndex}`}
-                            alt={`Image ${imageIndex + 1}`}
+                            id={`${mapImageIndex}`}
+                            alt={`Image ${mapImageIndex + 1}`}
                             onClick={() => handleImageClick(imageIndex, filteredImages)}
                             style={{ cursor: 'pointer' }}
                             width={columnWidth}
@@ -492,7 +491,7 @@ const ImageGallery: React.FC = () => {
                 </div>
             );
         } else {
-            generateNFT(imageIndex);
+            generateNFT(mapImageIndex);
             return (
                 <div style={style} className="p-1">
 
@@ -503,8 +502,8 @@ const ImageGallery: React.FC = () => {
 
                             src={`/loading.gif`}
                             priority={true} 
-                            id={`${imageIndex}`}
-                            alt={`Image ${imageIndex + 1}`}
+                            id={`${mapImageIndex}`}
+                            alt={`Image ${mapImageIndex + 1}`}
                             onClick={() => handleImageClick(imageIndex, filteredImages)}
                             style={{ cursor: 'pointer' }}
                             width={columnWidth}
@@ -517,6 +516,16 @@ const ImageGallery: React.FC = () => {
         }
     };
 
+    let select = undefined;
+    if (selectedImage != undefined){
+        select = map.get(selectedImage);
+        if (select == undefined) select = 0;
+
+        if (!generatedNft[selectedImage])
+        {
+            generateNFT(select);
+        }
+    }
     return (
         <div className="expand-flex">
             <div className="attributes-container gallery-content ">
@@ -553,9 +562,9 @@ const ImageGallery: React.FC = () => {
                                 {Cell}
                             </Grid>
                         )}
-                        {selectedImage && (
+                        {select != undefined && (
                             <DetailsModal onClose={() => {setSelectedMeta(null); setSelectedImage(undefined)}} onNext={handleNext} onPrevious={handlePrevious}>
-                                <ImageDetails selectedImage={selectedImage - 1}/>
+                                <ImageDetails selectedImage={select}/>
                             </DetailsModal>
                         )}
                     </div>

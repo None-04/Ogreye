@@ -33,9 +33,7 @@ const PlaceholderMetadataItem: React.FC = () => (
 
 const ImageDetails: React.FC<ImageDetailsProps> = ({ selectedImage }) => {
     const imageUrl = selectedImage || '';
-    const n = (selectedImage ? selectedImage : 0)
     const isDesktop = typeof window !== 'undefined' && window.innerWidth > 768;
-    
     
     return (
 
@@ -43,8 +41,8 @@ const ImageDetails: React.FC<ImageDetailsProps> = ({ selectedImage }) => {
         <div className="metadata-grid-column">
             <div>
                 <Image
-                    src={generatedNft[n]}
-                    alt={"" + n}
+                    src={selectedImage == -1 ? "/loading.gif" : generatedNft[selectedImage]}
+                    alt={"" + selectedImage}
                     width={400}
                     height={400}
                     className="border-8 border-black rounded image-in-details"
