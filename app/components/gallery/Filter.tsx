@@ -8,7 +8,7 @@ interface FilterProps {
     collection: collection
     traits: Record<string, string[]>;
     activeFilters: Record<string, string[]>;
-    onFilterChange: (traitType: string, value: string) => void;
+    onFilterChange: (traitType: string | undefined, value: string) => void;
     setFilters: (filters: Record<string, string[]>) => void;
     setSearchValue: (searchTerm: string) => void;
     filterCha: (traitType: string, value: string, trat:string)=> void; 
@@ -49,7 +49,14 @@ const Filter: React.FC<FilterProps> = ({ traits, activeFilters, onFilterChange, 
     const [totalActiveFilters, setTotalActiveFilters] = useState(0);
     const [coll, setcoll] = useState<collection>();
     useEffect(() => {
-        const total = Object.values(activeFilters).reduce((total, filters) => total + filters.length, 0) + (searchValue.length > 0 ? 1 : 0);
+        var total = 0;
+        filtes.forEach((s)=>{
+            s.cate.forEach((f, i)=>{
+                f.trats.forEach((t, j)=>{
+                    total++;
+                })
+            })
+        })
         setTotalActiveFilters(total);
         setcoll(collection)
     }, [activeFilters, searchValue, collection]);
@@ -91,7 +98,7 @@ const Filter: React.FC<FilterProps> = ({ traits, activeFilters, onFilterChange, 
                 <div className="ml-3 mt-2">
                     <input
                         className="search-input search-input-font"
-                        placeholder="Aeon Number / Inscription ID"
+                        placeholder="NFT ID"
                         onChange={handleInputChange}
                         value={searchValue}
                     />
@@ -149,6 +156,8 @@ const Filter: React.FC<FilterProps> = ({ traits, activeFilters, onFilterChange, 
                 onClick={() => {
                     setFilters({});
                     setSearchValue('');
+                    onFilterChange(undefined, "");
+                    setTotalActiveFilters(0);
                 }}
             >
                 Clear Filters ({totalActiveFilters})

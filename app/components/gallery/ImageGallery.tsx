@@ -100,7 +100,17 @@ const ImageGallery: React.FC = () => {
         fetchData();
     }, []);
 
-    const handleFilterChange = (traitType: string, value: string) => {
+    const handleFilterChange = (traitType: string | undefined, value: string) => {
+        if (traitType == undefined) {
+            filtes.forEach((s)=>{
+                s.cate.forEach((f, i)=>{
+                    f.trats.forEach((t, j)=>{
+                        delete f.trats[j];
+                    })
+                })
+            })
+            return;
+        }
         setFilters((prevFilters: FiltersState): FiltersState => {
             const currentValues = prevFilters[traitType] || [];
             if (currentValues.includes(value)) {
