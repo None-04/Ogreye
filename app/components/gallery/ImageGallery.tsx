@@ -161,7 +161,7 @@ const ImageGallery: React.FC = () => {
     },
         [width, getColumnCount]);
 
-    const columnWidth = (isFilterVisible || width < MOBILE_THRESH_HOLD) ? (Math.floor(width / columnCount) - 4) : (Math.floor(0.75 * width / columnCount));
+    const columnWidth = (isFilterVisible || width < MOBILE_THRESH_HOLD) ? (Math.floor(width / columnCount) - 4) : (Math.floor(0.66 * width / columnCount));
 
     const handleImageClick = (imageIndex: number, filteredImages: string[]) => {
         setSelectedImageIndex(imageIndex );
@@ -487,8 +487,7 @@ const ImageGallery: React.FC = () => {
                 </div>
             );
         } else {
-            generateNFT(mapImageIndex, {width:500, height:500}, (canvas) => {
-                
+            generateNFT(mapImageIndex, {width:500, height:500}, (canvas) => {  
                 let img = document.getElementById(String(mapImageIndex))
                 generatedNft[mapImageIndex] = canvas.toDataURL("image/png");
                 if(img == undefined){return  generatedNft[mapImageIndex]}
@@ -563,7 +562,7 @@ const ImageGallery: React.FC = () => {
                                 height={height - 40}
                                 rowCount={Math.ceil(filteredImages.length / columnCount)}
                                 rowHeight={columnWidth}
-                                width={(isFilterVisible || width < MOBILE_THRESH_HOLD) ? (width) : (0.75 * width)}
+                                width={(isFilterVisible || width < MOBILE_THRESH_HOLD) ? (width) : (0.66 * width)}
                                 className="grid"
                             >
                                 {Cell}
