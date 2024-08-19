@@ -246,7 +246,7 @@ const ImageGallery: React.FC = () => {
 
             for (let i in selectedTraitIndexes) {
                 let v = selectedTraitIndexes[i];
-                traits.push("traits/" + conf.name + "/" + conf.categories[i].name + "/" + conf.categories[i].traits[Number(v)].id);
+                traits.push("traits/" + conf.name.toLowerCase() + "/" + conf.categories[i].name.toLowerCase() + "/" + conf.categories[i].traits[Number(v)].id);
             }
 
             let selectedTraitOrders: number[] = [];
@@ -541,7 +541,7 @@ const ImageGallery: React.FC = () => {
 
                 <div className="mt-1 md:mt-2 flex justify-between">
                     {isFilterVisible || width >= MOBILE_THRESH_HOLD ? (
-                        <div className={`${width < MOBILE_THRESH_HOLD ? 'w-full' : 'w-1/4'} pl-0`}>
+                        <div className={`${width < MOBILE_THRESH_HOLD ? 'w-full' : 'w-1/3'} pl-0`}>
                             <Filter
                                 traits={traits}
                                 activeFilters={filters}
@@ -555,7 +555,7 @@ const ImageGallery: React.FC = () => {
                         </div>
                     ) : null}
                     <div
-                        className={`${isFilterVisible && width < MOBILE_THRESH_HOLD ? 'hidden' : (width < MOBILE_THRESH_HOLD ? 'w-full' : 'w-3/4')} flex justify-center grid-container-shadow`}>
+                        className={`${isFilterVisible && width < MOBILE_THRESH_HOLD ? 'hidden' : (width < MOBILE_THRESH_HOLD ? 'w-full' : 'w-2/3')} flex justify-center grid-container-shadow`}>
                         {isLoaded && width > 0 && height > 0 && (
                             <Grid
                                 columnCount={columnCount}

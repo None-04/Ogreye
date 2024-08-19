@@ -3,777 +3,777 @@
   "supply": 3333,
   "configurations": [
     {
-      "name": "female grey",
+      "name": "Female Grey",
       "categories": [
         {
-          "name": "backgrounds",
+          "name": "Backgrounds",
           "operation": "source-over",
           "traits": [
             {
-              "name": "01",
+              "name": "Ymir Mountain",
               "count": 0,
               "id": "01.webp"
             },
             {
-              "name": "02",
+              "name": "Village Grayclaw",
               "count": 0,
               "id": "02.webp"
             },
             {
-              "name": "03",
+              "name": "Rán Isle",
               "count": 0,
               "id": "03.webp"
             },
             {
-              "name": "04",
+              "name": "Final Hope Oasis",
               "count": 0,
               "id": "04.webp"
             },
             {
-              "name": "05",
+              "name": "Burning Desert",
               "count": 0,
               "id": "05.webp"
             },
             {
-              "name": "06",
+              "name": "Verdantshade Forest",
               "count": 0,
               "id": "06.webp"
             }
           ]
         },
         {
-          "name": "base body",
+          "name": "Base Body",
           "operation": "source-over",
           "traits": [
             {
-              "name": "base body f 01",
+              "name": "Grol",
               "count": 0,
               "id": "base body f 01.webp"
             }
           ]
         },
         {
-          "name": "beard and jaw",
+          "name": "Beard and Jaw",
           "operation": "source-over",
           "traits": [
             {
-              "name": "beard and jaw f 01",
+              "name": "Sara Durnkar",
               "count": 0,
               "id": "beard and jaw f 01.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body paint tattoo",
+          "name": "Body Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "body paint tattoo f 01",
+              "name": "Hargan Markgor",
               "count": 0,
               "id": "body paint tattoo f 01.webp"
             },
             {
-              "name": "body paint tattoo f 02",
+              "name": "Grayclaw Markgor",
               "count": 0,
               "id": "body paint tattoo f 02.webp"
             },
             {
-              "name": "body paint tattoo f 03",
+              "name": "Kragmar Markgor",
               "count": 0,
               "id": "body paint tattoo f 03.webp"
             },
             {
-              "name": "body paint tattoo f 04",
+              "name": "Murgath Markgor",
               "count": 0,
               "id": "body paint tattoo f 04.webp"
             },
             {
-              "name": "body paint tattoo f 05",
+              "name": "Borak Markgor",
               "count": 0,
               "id": "body paint tattoo f 05.webp"
             },
             {
-              "name": "body paint tattoo f 06",
+              "name": "Grukk Markgor",
               "count": 0,
               "id": "body paint tattoo f 06.webp"
             },
             {
-              "name": "body paint tattoo f 07",
+              "name": "Rognak Markgor",
               "count": 0,
               "id": "body paint tattoo f 07.webp"
             },
             {
-              "name": "body paint tattoo f 08",
+              "name": "Gorath Markgor",
               "count": 0,
               "id": "body paint tattoo f 08.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body scars",
+          "name": "Body Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "body scars f 01",
+              "name": "Bloodfang Gorrash",
               "count": 0,
               "id": "body scars f 01.webp"
             },
             {
-              "name": "body scars f 02",
+              "name": "Wolfscratch Gorrash",
               "count": 0,
               "id": "body scars f 02.webp"
             },
             {
-              "name": "body scars f 03",
+              "name": "Razorfang Gorrash",
               "count": 0,
               "id": "body scars f 03.webp"
             },
             {
-              "name": "body scars f 04",
+              "name": "Stormclaw Gorrash",
               "count": 0,
               "id": "body scars f 04.webp"
             },
             {
-              "name": "body scars f 05",
+              "name": "Ravengar Gorrash",
               "count": 0,
               "id": "body scars f 05.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "clothes",
+          "name": "Clothes",
           "operation": "source-over",
           "traits": [
             {
-              "name": "clothes f 01",
+              "name": "Fira Rokkura",
               "count": 0,
               "id": "clothes f 01.webp"
             },
             {
-              "name": "clothes f 02",
+              "name": "Hara Rokkura",
               "count": 0,
               "id": "clothes f 02.webp"
             },
             {
-              "name": "clothes f 03",
+              "name": "Ivara Rokkura",
               "count": 0,
               "id": "clothes f 03.webp"
             },
             {
-              "name": "clothes f 04",
+              "name": "Lyria Rokkura",
               "count": 0,
               "id": "clothes f 04.webp"
             },
             {
-              "name": "clothes f 05",
+              "name": "Nara Rokkura",
               "count": 0,
               "id": "clothes f 05.webp"
             },
             {
-              "name": "clothes f 06",
+              "name": "Quira Rokkura",
               "count": 0,
               "id": "clothes f 06.webp"
             },
             {
-              "name": "clothes f 07",
+              "name": "Bettina Rokkura",
               "count": 0,
               "id": "clothes f 07.webp"
             },
             {
-              "name": "clothes f 08",
+              "name": "Rana Rokkura",
               "count": 0,
               "id": "clothes f 08.webp"
             }
           ]
         },
         {
-          "name": "ear",
+          "name": "Ear",
           "operation": "source-over",
           "traits": [
             {
-              "name": "ear f 01",
+              "name": "Coria Tharnok",
               "count": 0,
               "id": "ear f 01.webp"
             },
             {
-              "name": "ear f 02",
+              "name": "Dreya Tharnok",
               "count": 0,
               "id": "ear f 02.webp"
             },
             {
-              "name": "ear f 03",
+              "name": "Eira Tharnok",
               "count": 0,
               "id": "ear f 03.webp"
             },
             {
-              "name": "ear f 04",
+              "name": "Feyra Tharnok",
               "count": 0,
               "id": "ear f 04.webp"
             },
             {
-              "name": "ear f 05",
+              "name": "Hera Tharnok",
               "count": 0,
               "id": "ear f 05.webp"
             }
           ]
         },
         {
-          "name": "earring",
+          "name": "Earring",
           "operation": "source-over",
           "traits": [
             {
-              "name": "earring f 01",
+              "name": "Grimclaw Thornak",
               "count": 0,
               "id": "earring f 01.webp"
             },
             {
-              "name": "earring f 02",
+              "name": "Ironfrost Thornak",
               "count": 0,
               "id": "earring f 02.webp"
             },
             {
-              "name": "earring f 03",
+              "name": "Stonefang Thornak",
               "count": 0,
               "id": "earring f 03.webp"
             },
             {
-              "name": "earring f 04",
+              "name": "Raggedshard Thornak",
               "count": 0,
               "id": "earring f 04.webp"
             },
             {
-              "name": "earring f 05",
+              "name": "Bonewhisk Thornak",
               "count": 0,
               "id": "earring f 05.webp"
             },
             {
-              "name": "earring f 06",
+              "name": "Ironlash Thornak",
               "count": 0,
               "id": "earring f 06.webp"
             },
             {
-              "name": "earring f 07",
+              "name": "Thornbark Thornak",
               "count": 0,
               "id": "earring f 07.webp"
             },
             {
-              "name": "earring f 08",
+              "name": "Gravelhook Thornak",
               "count": 0,
               "id": "earring f 08.webp"
             },
             {
-              "name": "earring f 09",
+              "name": "Duskspike Thornak",
               "count": 0,
               "id": "earring f 09.webp"
             },
             {
-              "name": "earring f 10",
+              "name": "Stormfang Thornak",
               "count": 0,
               "id": "earring f 10.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "eye",
+          "name": "Eye",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eye f 01",
+              "name": "Liora Gornir",
               "count": 0,
               "id": "eye f 01.webp"
             },
             {
-              "name": "eye f 02",
+              "name": "Myria Gornir",
               "count": 0,
               "id": "eye f 02.webp"
             },
             {
-              "name": "eye f 03",
+              "name": "Nyssa Gornir",
               "count": 0,
               "id": "eye f 03.webp"
             },
             {
-              "name": "eye f 04",
+              "name": "Orana Gornir",
               "count": 0,
               "id": "eye f 04.webp"
             },
             {
-              "name": "eye f 05",
+              "name": "Phaedra Gornir",
               "count": 0,
               "id": "eye f 05.webp"
             },
             {
-              "name": "eye f 06",
+              "name": "Quara Gornir",
               "count": 0,
               "id": "eye f 06.webp"
             },
             {
-              "name": "eye f 07",
+              "name": "Rhyssa Gornir",
               "count": 0,
               "id": "eye f 07.webp"
             },
             {
-              "name": "eye f 08",
+              "name": "Ursa Gornir",
               "count": 0,
               "id": "eye f 08.webp"
             },
             {
-              "name": "eye f 09",
+              "name": "Vela Gornir",
               "count": 0,
               "id": "eye f 09.webp"
             },
             {
-              "name": "eye f 10",
+              "name": "Wynna Gornir",
               "count": 0,
               "id": "eye f 10.webp"
             },
             {
-              "name": "eye f 11",
+              "name": "Rune Gornir",
               "count": 0,
               "id": "eye f 11.webp"
             }
           ]
         },
         {
-          "name": "eyebrow",
+          "name": "Eyebrow",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eyebrow f 01",
+              "name": "Xyra Gorneth",
               "count": 0,
               "id": "eyebrow f 01.webp"
             },
             {
-              "name": "eyebrow f 02",
+              "name": "eYara Gorneth",
               "count": 0,
               "id": "eyebrow f 02.webp"
             },
             {
-              "name": "eyebrow f 03",
+              "name": "Zara Gorneth",
               "count": 0,
               "id": "eyebrow f 03.webp"
             },
             {
-              "name": "eyebrow f 04",
+              "name": "Brenna Gorneth",
               "count": 0,
               "id": "eyebrow f 04.webp"
             },
             {
-              "name": "eyebrow f 05",
+              "name": "Eldra Gorneth",
               "count": 0,
               "id": "eyebrow f 05.webp"
             }
           ]
         },
         {
-          "name": "face paint tattoo",
+          "name": "Face Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face paint tattoo f 01",
+              "name": "Thornmark Markthar",
               "count": 0,
               "id": "face paint tattoo f 01.webp"
             },
             {
-              "name": "face paint tattoo f 02",
+              "name": "Ironpeak Markthar",
               "count": 0,
               "id": "face paint tattoo f 02.webp"
             },
             {
-              "name": "face paint tattoo f 03",
+              "name": "Grimscar Markthar",
               "count": 0,
               "id": "face paint tattoo f 03.webp"
             },
             {
-              "name": "face paint tattoo f 04",
+              "name": "Ironfang Markthar",
               "count": 0,
               "id": "face paint tattoo f 04.webp"
             },
             {
-              "name": "face paint tattoo f 05",
+              "name": "Raggedbone Markthar",
               "count": 0,
               "id": "face paint tattoo f 05.webp"
             },
             {
-              "name": "face paint tattoo f 06",
+              "name": "Gravemurk Markthar",
               "count": 0,
               "id": "face paint tattoo f 06.webp"
             },
             {
-              "name": "face paint tattoo f 07",
+              "name": "Duskmark Markthar",
               "count": 0,
               "id": "face paint tattoo f 07.webp"
             },
             {
-              "name": "face paint tattoo f 08",
+              "name": "Wraithbone Markthar",
               "count": 0,
               "id": "face paint tattoo f 08.webp"
             }
           ]
         },
         {
-          "name": "face scars",
+          "name": "Face Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face scars f 01",
+              "name": "Thornscar Thark",
               "count": 0,
               "id": "face scars f 01.webp"
             },
             {
-              "name": "face scars f 02",
+              "name": "Grimnir Thark",
               "count": 0,
               "id": "face scars f 02.webp"
             },
             {
-              "name": "face scars f 03",
+              "name": "Clawbite Thark",
               "count": 0,
               "id": "face scars f 03.webp"
             },
             {
-              "name": "face scars f 04",
+              "name": "Pestscar Thark",
               "count": 0,
               "id": "face scars f 04.webp"
             },
             {
-              "name": "face scars f 05",
+              "name": "Fangmark Thark",
               "count": 0,
               "id": "face scars f 05.webp"
             }
           ]
         },
         {
-          "name": "hair",
+          "name": "Hair",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "hair f 01",
+              "name": "Thralia Farnok",
               "count": 0,
               "id": "hair f 01.webp"
             },
             {
-              "name": "hair f 02",
+              "name": "Tressa Farnok",
               "count": 0,
               "id": "hair f 02.webp"
             },
             {
-              "name": "hair f 03",
+              "name": "Ulara Farnok",
               "count": 0,
               "id": "hair f 03.webp"
             },
             {
-              "name": "hair f 04",
+              "name": "Saria Farnok",
               "count": 0,
               "id": "hair f 04.webp"
             },
             {
-              "name": "hair f 05",
+              "name": "Varya Farnok",
               "count": 0,
               "id": "hair f 05.webp"
             },
             {
-              "name": "hair f 06",
+              "name": "Yllara Farnok",
               "count": 0,
               "id": "hair f 06.webp"
             },
             {
-              "name": "hair f 07",
+              "name": "Xara Farnok",
               "count": 0,
               "id": "hair f 07.webp"
             },
             {
-              "name": "hair f 08",
+              "name": "Breya Farnok",
               "count": 0,
               "id": "hair f 08.webp"
             }
           ]
         },
         {
-          "name": "mouth and teeth",
+          "name": "Mouth and Teeth",
           "operation": "source-over",
           "traits": [
             {
-              "name": "mouth and teeth f 01",
+              "name": "Faelara Gravmok",
               "count": 0,
               "id": "mouth and teeth f 01.webp"
             },
             {
-              "name": "mouth and teeth f 02",
+              "name": "Glyndra Gravmok",
               "count": 0,
               "id": "mouth and teeth f 02.webp"
             },
             {
-              "name": "mouth and teeth f 03",
+              "name": "Helira Gravmok",
               "count": 0,
               "id": "mouth and teeth f 03.webp"
             },
             {
-              "name": "mouth and teeth f 04",
+              "name": "Ilyana Gravmok",
               "count": 0,
               "id": "mouth and teeth f 04.webp"
             },
             {
-              "name": "mouth and teeth f 05",
+              "name": "Krelia Gravmok",
               "count": 0,
               "id": "mouth and teeth f 05.webp"
             }
           ]
         },
         {
-          "name": "necklace",
+          "name": "Necklace",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "necklace f 01",
+              "name": "Kuldar Thurnak",
               "count": 0,
               "id": "necklace f 01.webp"
             },
             {
-              "name": "necklace f 02",
+              "name": "Voldren Thurnak",
               "count": 0,
               "id": "necklace f 02.webp"
             },
             {
-              "name": "necklace f 03",
+              "name": "Shad'mor Thurnak",
               "count": 0,
               "id": "necklace f 03.webp"
             },
             {
-              "name": "necklace f 04",
+              "name": "Mal'gor Thurnak",
               "count": 0,
               "id": "necklace f 04.webp"
             },
             {
-              "name": "necklace f 05",
+              "name": "Zul'dan Thurnak",
               "count": 0,
               "id": "necklace f 05.webp"
             },
             {
-              "name": "necklace f 06",
+              "name": "Drak'thor Thurnak",
               "count": 0,
               "id": "necklace f 06.webp"
             },
             {
-              "name": "necklace f 07",
+              "name": "Nek'raal Thurnak",
               "count": 0,
               "id": "necklace f 07.webp"
             },
             {
-              "name": "necklace f 08",
+              "name": "Grim'zul Thurnak",
               "count": 0,
               "id": "necklace f 08.webp"
             }
           ]
         },
         {
-          "name": "nose",
+          "name": "Nose",
           "operation": "source-over",
           "traits": [
             {
-              "name": "nose f 01",
+              "name": "Aelira Karnrok",
               "count": 0,
               "id": "nose f 01.webp"
             },
             {
-              "name": "nose f 02",
+              "name": "Bryndra Karnrok",
               "count": 0,
               "id": "nose f 02.webp"
             },
             {
-              "name": "nose f 03",
+              "name": "Celara Karnrok",
               "count": 0,
               "id": "nose f 03.webp"
             },
             {
-              "name": "nose f 04",
+              "name": "Drielle Karnrok",
               "count": 0,
               "id": "nose f 04.webp"
             },
             {
-              "name": "nose f 05",
+              "name": "Elyndra Karnrok",
               "count": 0,
               "id": "nose f 05.webp"
             }
           ]
         },
         {
-          "name": "nose piercing",
+          "name": "Nose Piercing",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "nose piercing f 01",
+              "name": "Gravrok Thurrok",
               "count": 0,
               "id": "nose piercing f 01.webp"
             },
             {
-              "name": "nose piercing f 02",
+              "name": "Bonecrest Thurrok",
               "count": 0,
               "id": "nose piercing f 02.webp"
             },
             {
-              "name": "nose piercing f 03",
+              "name": "Thorncrest Thurrok",
               "count": 0,
               "id": "nose piercing f 03.webp"
             },
             {
-              "name": "nose piercing f 04",
+              "name": "Ironband Thurrok",
               "count": 0,
               "id": "nose piercing f 04.webp"
             },
             {
-              "name": "nose piercing f 05",
+              "name": "Stoneclaw Thurrok",
               "count": 0,
               "id": "nose piercing f 05.webp"
             },
             {
-              "name": "nose piercing f 06",
+              "name": "Stonurn Thurrok",
               "count": 0,
               "id": "nose piercing f 06.webp"
             }
           ]
         },
         {
-          "name": "shoulder armor",
+          "name": "Shoulder Armor",
           "operation": "source-over",
           "traits": [
             {
-              "name": "shoulder armor f 01",
+              "name": "Thunderpaw Gravnar",
               "count": 0,
               "id": "shoulder armor f 01.webp"
             },
             {
-              "name": "shoulder armor f 02",
+              "name": "Darkscale Gravnar",
               "count": 0,
               "id": "shoulder armor f 02.webp"
             },
             {
-              "name": "shoulder armor f 03",
+              "name": "Emberflame Gravnar",
               "count": 0,
               "id": "shoulder armor f 03.webp"
             },
             {
-              "name": "shoulder armor f 04",
+              "name": "Grimtalon Gravnar",
               "count": 0,
               "id": "shoulder armor f 04.webp"
             },
             {
-              "name": "shoulder armor f 05",
+              "name": "Gloomfang Gravnar",
               "count": 0,
               "id": "shoulder armor f 05.webp"
             },
             {
-              "name": "shoulder armor f 06",
+              "name": "Stonehide Gravnar",
               "count": 0,
               "id": "shoulder armor f 06.webp"
             },
             {
-              "name": "shoulder armor f 07",
+              "name": "Wraithwing Gravnar",
               "count": 0,
               "id": "shoulder armor f 07.webp"
             },
             {
               "name": "shoulder armor f 08",
               "count": 0,
-              "id": "shoulder armor f 08.webp"
+              "id": "Nightshade Gravnar"
             },
             {
-              "name": "shoulder armor f 09",
+              "name": "Nova Granar",
               "count": 0,
               "id": "shoulder armor f 09.webp"
             }
           ]
         },
         {
-          "name": "weapon",
+          "name": "Weapon",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "weapon f 01",
+              "name": "Shadowrend Axe",
               "count": 0,
               "id": "weapon f 01.webp"
             },
             {
-              "name": "weapon f 02",
+              "name": "Stormbringer's Axe",
               "count": 0,
               "id": "weapon f 02.webp"
             },
             {
-              "name": "weapon f 03",
+              "name": "Blackguard Sword",
               "count": 0,
               "id": "weapon f 03.webp"
             },
             {
-              "name": "weapon f 04",
+              "name": "Skullsmash Club",
               "count": 0,
               "id": "weapon f 04.webp"
             },
             {
-              "name": "weapon f 05",
+              "name": "Grimfang Mace",
               "count": 0,
               "id": "weapon f 05.webp"
             },
             {
-              "name": "weapon f 06",
+              "name": "Stormpiercer Spear",
               "count": 0,
               "id": "weapon f 06.webp"
             },
             {
-              "name": "weapon f 07",
+              "name": "Honorayne Sword",
               "count": 0,
               "id": "weapon f 07.webp"
             },
             {
-              "name": "weapon f 08",
+              "name": "Shadowrunner Bow",
               "count": 0,
               "id": "weapon f 08.webp"
             }
@@ -782,777 +782,777 @@
       ]
     },
     {
-      "name": "female white",
+      "name": "Female White",
       "categories": [
         {
-          "name": "backgrounds",
+          "name": "Backgrounds",
           "operation": "source-over",
           "traits": [
             {
-              "name": "01",
+              "name": "Ymir Mountain",
               "count": 0,
               "id": "01.webp"
             },
             {
-              "name": "02",
+              "name": "Village Grayclaw",
               "count": 0,
               "id": "02.webp"
             },
             {
-              "name": "03",
+              "name": "Rán Isle",
               "count": 0,
               "id": "03.webp"
             },
             {
-              "name": "04",
+              "name": "Final Hope Oasis",
               "count": 0,
               "id": "04.webp"
             },
             {
-              "name": "05",
+              "name": "Burning Desert",
               "count": 0,
               "id": "05.webp"
             },
             {
-              "name": "06",
+              "name": "Verdantshade Forest",
               "count": 0,
               "id": "06.webp"
             }
           ]
         },
         {
-          "name": "base body",
+          "name": "Base Body",
           "operation": "source-over",
           "traits": [
             {
-              "name": "base body f 01",
+              "name": "Grol",
               "count": 0,
               "id": "base body f 01.webp"
             }
           ]
         },
         {
-          "name": "beard and jaw",
+          "name": "Beard and Jaw",
           "operation": "source-over",
           "traits": [
             {
-              "name": "beard and jaw f 01",
+              "name": "Sara Durnkar",
               "count": 0,
               "id": "beard and jaw f 01.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body paint tattoo",
+          "name": "Body Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "body paint tattoo f 01",
+              "name": "Hargan Markgor",
               "count": 0,
               "id": "body paint tattoo f 01.webp"
             },
             {
-              "name": "body paint tattoo f 02",
+              "name": "Grayclaw Markgor",
               "count": 0,
               "id": "body paint tattoo f 02.webp"
             },
             {
-              "name": "body paint tattoo f 03",
+              "name": "Kragmar Markgor",
               "count": 0,
               "id": "body paint tattoo f 03.webp"
             },
             {
-              "name": "body paint tattoo f 04",
+              "name": "Murgath Markgor",
               "count": 0,
               "id": "body paint tattoo f 04.webp"
             },
             {
-              "name": "body paint tattoo f 05",
+              "name": "Borak Markgor",
               "count": 0,
               "id": "body paint tattoo f 05.webp"
             },
             {
-              "name": "body paint tattoo f 06",
+              "name": "Grukk Markgor",
               "count": 0,
               "id": "body paint tattoo f 06.webp"
             },
             {
-              "name": "body paint tattoo f 07",
+              "name": "Rognak Markgor",
               "count": 0,
               "id": "body paint tattoo f 07.webp"
             },
             {
-              "name": "body paint tattoo f 08",
+              "name": "Gorath Markgor",
               "count": 0,
               "id": "body paint tattoo f 08.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body scars",
+          "name": "Body Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "body scars f 01",
+              "name": "Bloodfang Gorrash",
               "count": 0,
               "id": "body scars f 01.webp"
             },
             {
-              "name": "body scars f 02",
+              "name": "Wolfscratch Gorrash",
               "count": 0,
               "id": "body scars f 02.webp"
             },
             {
-              "name": "body scars f 03",
+              "name": "Razorfang Gorrash",
               "count": 0,
               "id": "body scars f 03.webp"
             },
             {
-              "name": "body scars f 04",
+              "name": "Stormclaw Gorrash",
               "count": 0,
               "id": "body scars f 04.webp"
             },
             {
-              "name": "body scars f 05",
+              "name": "Ravengar Gorrash",
               "count": 0,
               "id": "body scars f 05.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "clothes",
+          "name": "Clothes",
           "operation": "source-over",
           "traits": [
             {
-              "name": "clothes f 01",
+              "name": "Fira Rokkura",
               "count": 0,
               "id": "clothes f 01.webp"
             },
             {
-              "name": "clothes f 02",
+              "name": "Hara Rokkura",
               "count": 0,
               "id": "clothes f 02.webp"
             },
             {
-              "name": "clothes f 03",
+              "name": "Ivara Rokkura",
               "count": 0,
               "id": "clothes f 03.webp"
             },
             {
-              "name": "clothes f 04",
+              "name": "Lyria Rokkura",
               "count": 0,
               "id": "clothes f 04.webp"
             },
             {
-              "name": "clothes f 05",
+              "name": "Nara Rokkura",
               "count": 0,
               "id": "clothes f 05.webp"
             },
             {
-              "name": "clothes f 06",
+              "name": "Quira Rokkura",
               "count": 0,
               "id": "clothes f 06.webp"
             },
             {
-              "name": "clothes f 07",
+              "name": "Bettina Rokkura",
               "count": 0,
               "id": "clothes f 07.webp"
             },
             {
-              "name": "clothes f 08",
+              "name": "Rana Rokkura",
               "count": 0,
               "id": "clothes f 08.webp"
             }
           ]
         },
         {
-          "name": "ear",
+          "name": "Ear",
           "operation": "source-over",
           "traits": [
             {
-              "name": "ear f 01",
+              "name": "Coria Tharnok",
               "count": 0,
               "id": "ear f 01.webp"
             },
             {
-              "name": "ear f 02",
+              "name": "Dreya Tharnok",
               "count": 0,
               "id": "ear f 02.webp"
             },
             {
-              "name": "ear f 03",
+              "name": "Eira Tharnok",
               "count": 0,
               "id": "ear f 03.webp"
             },
             {
-              "name": "ear f 04",
+              "name": "Feyra Tharnok",
               "count": 0,
               "id": "ear f 04.webp"
             },
             {
-              "name": "ear f 05",
+              "name": "Hera Tharnok",
               "count": 0,
               "id": "ear f 05.webp"
             }
           ]
         },
         {
-          "name": "earring",
+          "name": "Earring",
           "operation": "source-over",
           "traits": [
             {
-              "name": "earring f 01",
+              "name": "Grimclaw Thornak",
               "count": 0,
               "id": "earring f 01.webp"
             },
             {
-              "name": "earring f 02",
+              "name": "Ironfrost Thornak",
               "count": 0,
               "id": "earring f 02.webp"
             },
             {
-              "name": "earring f 03",
+              "name": "Stonefang Thornak",
               "count": 0,
               "id": "earring f 03.webp"
             },
             {
-              "name": "earring f 04",
+              "name": "Raggedshard Thornak",
               "count": 0,
               "id": "earring f 04.webp"
             },
             {
-              "name": "earring f 05",
+              "name": "Bonewhisk Thornak",
               "count": 0,
               "id": "earring f 05.webp"
             },
             {
-              "name": "earring f 06",
+              "name": "Ironlash Thornak",
               "count": 0,
               "id": "earring f 06.webp"
             },
             {
-              "name": "earring f 07",
+              "name": "Thornbark Thornak",
               "count": 0,
               "id": "earring f 07.webp"
             },
             {
-              "name": "earring f 08",
+              "name": "Gravelhook Thornak",
               "count": 0,
               "id": "earring f 08.webp"
             },
             {
-              "name": "earring f 09",
+              "name": "Duskspike Thornak",
               "count": 0,
               "id": "earring f 09.webp"
             },
             {
-              "name": "earring f 10",
+              "name": "Stormfang Thornak",
               "count": 0,
               "id": "earring f 10.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "eye",
+          "name": "Eye",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eye f 01",
+              "name": "Liora Gornir",
               "count": 0,
               "id": "eye f 01.webp"
             },
             {
-              "name": "eye f 02",
+              "name": "Myria Gornir",
               "count": 0,
               "id": "eye f 02.webp"
             },
             {
-              "name": "eye f 03",
+              "name": "Nyssa Gornir",
               "count": 0,
               "id": "eye f 03.webp"
             },
             {
-              "name": "eye f 04",
+              "name": "Orana Gornir",
               "count": 0,
               "id": "eye f 04.webp"
             },
             {
-              "name": "eye f 05",
+              "name": "Phaedra Gornir",
               "count": 0,
               "id": "eye f 05.webp"
             },
             {
-              "name": "eye f 06",
+              "name": "Quara Gornir",
               "count": 0,
               "id": "eye f 06.webp"
             },
             {
-              "name": "eye f 07",
+              "name": "Rhyssa Gornir",
               "count": 0,
               "id": "eye f 07.webp"
             },
             {
-              "name": "eye f 08",
+              "name": "Ursa Gornir",
               "count": 0,
               "id": "eye f 08.webp"
             },
             {
-              "name": "eye f 09",
+              "name": "Vela Gornir",
               "count": 0,
               "id": "eye f 09.webp"
             },
             {
-              "name": "eye f 10",
+              "name": "Wynna Gornir",
               "count": 0,
               "id": "eye f 10.webp"
             },
             {
-              "name": "eye f 11",
+              "name": "Rune Gornir",
               "count": 0,
               "id": "eye f 11.webp"
             }
           ]
         },
         {
-          "name": "eyebrow",
+          "name": "Eyebrow",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eyebrow f 01",
+              "name": "Xyra Gorneth",
               "count": 0,
               "id": "eyebrow f 01.webp"
             },
             {
-              "name": "eyebrow f 02",
+              "name": "eYara Gorneth",
               "count": 0,
               "id": "eyebrow f 02.webp"
             },
             {
-              "name": "eyebrow f 03",
+              "name": "Zara Gorneth",
               "count": 0,
               "id": "eyebrow f 03.webp"
             },
             {
-              "name": "eyebrow f 04",
+              "name": "Brenna Gorneth",
               "count": 0,
               "id": "eyebrow f 04.webp"
             },
             {
-              "name": "eyebrow f 05",
+              "name": "Eldra Gorneth",
               "count": 0,
               "id": "eyebrow f 05.webp"
             }
           ]
         },
         {
-          "name": "face paint tattoo",
+          "name": "Face Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face paint tattoo f 01",
+              "name": "Thornmark Markthar",
               "count": 0,
               "id": "face paint tattoo f 01.webp"
             },
             {
-              "name": "face paint tattoo f 02",
+              "name": "Ironpeak Markthar",
               "count": 0,
               "id": "face paint tattoo f 02.webp"
             },
             {
-              "name": "face paint tattoo f 03",
+              "name": "Grimscar Markthar",
               "count": 0,
               "id": "face paint tattoo f 03.webp"
             },
             {
-              "name": "face paint tattoo f 04",
+              "name": "Ironfang Markthar",
               "count": 0,
               "id": "face paint tattoo f 04.webp"
             },
             {
-              "name": "face paint tattoo f 05",
+              "name": "Raggedbone Markthar",
               "count": 0,
               "id": "face paint tattoo f 05.webp"
             },
             {
-              "name": "face paint tattoo f 06",
+              "name": "Gravemurk Markthar",
               "count": 0,
               "id": "face paint tattoo f 06.webp"
             },
             {
-              "name": "face paint tattoo f 07",
+              "name": "Duskmark Markthar",
               "count": 0,
               "id": "face paint tattoo f 07.webp"
             },
             {
-              "name": "face paint tattoo f 08",
+              "name": "Wraithbone Markthar",
               "count": 0,
               "id": "face paint tattoo f 08.webp"
             }
           ]
         },
         {
-          "name": "face scars",
+          "name": "Face Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face scars f 01",
+              "name": "Thornscar Thark",
               "count": 0,
               "id": "face scars f 01.webp"
             },
             {
-              "name": "face scars f 02",
+              "name": "Grimnir Thark",
               "count": 0,
               "id": "face scars f 02.webp"
             },
             {
-              "name": "face scars f 03",
+              "name": "Clawbite Thark",
               "count": 0,
               "id": "face scars f 03.webp"
             },
             {
-              "name": "face scars f 04",
+              "name": "Pestscar Thark",
               "count": 0,
               "id": "face scars f 04.webp"
             },
             {
-              "name": "face scars f 05",
+              "name": "Fangmark Thark",
               "count": 0,
               "id": "face scars f 05.webp"
             }
           ]
         },
         {
-          "name": "hair",
+          "name": "Hair",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "hair f 01",
+              "name": "Thralia Farnok",
               "count": 0,
               "id": "hair f 01.webp"
             },
             {
-              "name": "hair f 02",
+              "name": "Tressa Farnok",
               "count": 0,
               "id": "hair f 02.webp"
             },
             {
-              "name": "hair f 03",
+              "name": "Ulara Farnok",
               "count": 0,
               "id": "hair f 03.webp"
             },
             {
-              "name": "hair f 04",
+              "name": "Saria Farnok",
               "count": 0,
               "id": "hair f 04.webp"
             },
             {
-              "name": "hair f 05",
+              "name": "Varya Farnok",
               "count": 0,
               "id": "hair f 05.webp"
             },
             {
-              "name": "hair f 06",
+              "name": "Yllara Farnok",
               "count": 0,
               "id": "hair f 06.webp"
             },
             {
-              "name": "hair f 07",
+              "name": "Xara Farnok",
               "count": 0,
               "id": "hair f 07.webp"
             },
             {
-              "name": "hair f 08",
+              "name": "Breya Farnok",
               "count": 0,
               "id": "hair f 08.webp"
             }
           ]
         },
         {
-          "name": "mouth and teeth",
+          "name": "Mouth and Teeth",
           "operation": "source-over",
           "traits": [
             {
-              "name": "mouth and teeth f 01",
+              "name": "Faelara Gravmok",
               "count": 0,
               "id": "mouth and teeth f 01.webp"
             },
             {
-              "name": "mouth and teeth f 02",
+              "name": "Glyndra Gravmok",
               "count": 0,
               "id": "mouth and teeth f 02.webp"
             },
             {
-              "name": "mouth and teeth f 03",
+              "name": "Helira Gravmok",
               "count": 0,
               "id": "mouth and teeth f 03.webp"
             },
             {
-              "name": "mouth and teeth f 04",
+              "name": "Ilyana Gravmok",
               "count": 0,
               "id": "mouth and teeth f 04.webp"
             },
             {
-              "name": "mouth and teeth f 05",
+              "name": "Krelia Gravmok",
               "count": 0,
               "id": "mouth and teeth f 05.webp"
             }
           ]
         },
         {
-          "name": "necklace",
+          "name": "Necklace",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "necklace f 01",
+              "name": "Kuldar Thurnak",
               "count": 0,
               "id": "necklace f 01.webp"
             },
             {
-              "name": "necklace f 02",
+              "name": "Voldren Thurnak",
               "count": 0,
               "id": "necklace f 02.webp"
             },
             {
-              "name": "necklace f 03",
+              "name": "Shad'mor Thurnak",
               "count": 0,
               "id": "necklace f 03.webp"
             },
             {
-              "name": "necklace f 04",
+              "name": "Mal'gor Thurnak",
               "count": 0,
               "id": "necklace f 04.webp"
             },
             {
-              "name": "necklace f 05",
+              "name": "Zul'dan Thurnak",
               "count": 0,
               "id": "necklace f 05.webp"
             },
             {
-              "name": "necklace f 06",
+              "name": "Drak'thor Thurnak",
               "count": 0,
               "id": "necklace f 06.webp"
             },
             {
-              "name": "necklace f 07",
+              "name": "Nek'raal Thurnak",
               "count": 0,
               "id": "necklace f 07.webp"
             },
             {
-              "name": "necklace f 08",
+              "name": "Grim'zul Thurnak",
               "count": 0,
               "id": "necklace f 08.webp"
             }
           ]
         },
         {
-          "name": "nose",
+          "name": "Nose",
           "operation": "source-over",
           "traits": [
             {
-              "name": "nose f 01",
+              "name": "Aelira Karnrok",
               "count": 0,
               "id": "nose f 01.webp"
             },
             {
-              "name": "nose f 02",
+              "name": "Bryndra Karnrok",
               "count": 0,
               "id": "nose f 02.webp"
             },
             {
-              "name": "nose f 03",
+              "name": "Celara Karnrok",
               "count": 0,
               "id": "nose f 03.webp"
             },
             {
-              "name": "nose f 04",
+              "name": "Drielle Karnrok",
               "count": 0,
               "id": "nose f 04.webp"
             },
             {
-              "name": "nose f 05",
+              "name": "Elyndra Karnrok",
               "count": 0,
               "id": "nose f 05.webp"
             }
           ]
         },
         {
-          "name": "nose piercing",
+          "name": "Nose Piercing",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "nose piercing f 01",
+              "name": "Gravrok Thurrok",
               "count": 0,
               "id": "nose piercing f 01.webp"
             },
             {
-              "name": "nose piercing f 02",
+              "name": "Bonecrest Thurrok",
               "count": 0,
               "id": "nose piercing f 02.webp"
             },
             {
-              "name": "nose piercing f 03",
+              "name": "Thorncrest Thurrok",
               "count": 0,
               "id": "nose piercing f 03.webp"
             },
             {
-              "name": "nose piercing f 04",
+              "name": "Ironband Thurrok",
               "count": 0,
               "id": "nose piercing f 04.webp"
             },
             {
-              "name": "nose piercing f 05",
+              "name": "Stoneclaw Thurrok",
               "count": 0,
               "id": "nose piercing f 05.webp"
             },
             {
-              "name": "nose piercing f 06",
+              "name": "Stonurn Thurrok",
               "count": 0,
               "id": "nose piercing f 06.webp"
             }
           ]
         },
         {
-          "name": "shoulder armor",
+          "name": "Shoulder Armor",
           "operation": "source-over",
           "traits": [
             {
-              "name": "shoulder armor f 01",
+              "name": "Thunderpaw Gravnar",
               "count": 0,
               "id": "shoulder armor f 01.webp"
             },
             {
-              "name": "shoulder armor f 02",
+              "name": "Darkscale Gravnar",
               "count": 0,
               "id": "shoulder armor f 02.webp"
             },
             {
-              "name": "shoulder armor f 03",
+              "name": "Emberflame Gravnar",
               "count": 0,
               "id": "shoulder armor f 03.webp"
             },
             {
-              "name": "shoulder armor f 04",
+              "name": "Grimtalon Gravnar",
               "count": 0,
               "id": "shoulder armor f 04.webp"
             },
             {
-              "name": "shoulder armor f 05",
+              "name": "Gloomfang Gravnar",
               "count": 0,
               "id": "shoulder armor f 05.webp"
             },
             {
-              "name": "shoulder armor f 06",
+              "name": "Stonehide Gravnar",
               "count": 0,
               "id": "shoulder armor f 06.webp"
             },
             {
-              "name": "shoulder armor f 07",
+              "name": "Wraithwing Gravnar",
               "count": 0,
               "id": "shoulder armor f 07.webp"
             },
             {
               "name": "shoulder armor f 08",
               "count": 0,
-              "id": "shoulder armor f 08.webp"
+              "id": "Nightshade Gravnar"
             },
             {
-              "name": "shoulder armor f 09",
+              "name": "Nova Granar",
               "count": 0,
               "id": "shoulder armor f 09.webp"
             }
           ]
         },
         {
-          "name": "weapon",
+          "name": "Weapon",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "weapon f 01",
+              "name": "Shadowrend Axe",
               "count": 0,
               "id": "weapon f 01.webp"
             },
             {
-              "name": "weapon f 02",
+              "name": "Stormbringer's Axe",
               "count": 0,
               "id": "weapon f 02.webp"
             },
             {
-              "name": "weapon f 03",
+              "name": "Blackguard Sword",
               "count": 0,
               "id": "weapon f 03.webp"
             },
             {
-              "name": "weapon f 04",
+              "name": "Skullsmash Club",
               "count": 0,
               "id": "weapon f 04.webp"
             },
             {
-              "name": "weapon f 05",
+              "name": "Grimfang Mace",
               "count": 0,
               "id": "weapon f 05.webp"
             },
             {
-              "name": "weapon f 06",
+              "name": "Stormpiercer Spear",
               "count": 0,
               "id": "weapon f 06.webp"
             },
             {
-              "name": "weapon f 07",
+              "name": "Honorayne Sword",
               "count": 0,
               "id": "weapon f 07.webp"
             },
             {
-              "name": "weapon f 08",
+              "name": "Shadowrunner Bow",
               "count": 0,
               "id": "weapon f 08.webp"
             }
@@ -1561,770 +1561,770 @@
       ]
     },
     {
-      "name": "male grey",
+      "name": "Male Grey",
       "categories": [
         {
-          "name": "backgrounds",
+          "name": "Backgrounds",
           "operation": "source-over",
           "traits": [
-            {
-              "name": "01",
-              "count": 0,
-              "id": "01.webp"
-            },
-            {
-              "name": "02",
-              "count": 0,
-              "id": "02.webp"
-            },
-            {
-              "name": "03",
-              "count": 0,
-              "id": "03.webp"
-            },
-            {
-              "name": "04",
-              "count": 0,
-              "id": "04.webp"
-            },
-            {
-              "name": "05",
-              "count": 0,
-              "id": "05.webp"
-            },
-            {
-              "name": "06",
-              "count": 0,
-              "id": "06.webp"
-            }
+              {
+                "name": "Ymir Mountain",
+                "count": 0,
+                "id": "01.webp"
+              },
+              {
+                "name": "Village Grayclaw",
+                "count": 0,
+                "id": "02.webp"
+              },
+              {
+                "name": "Rán Isle",
+                "count": 0,
+                "id": "03.webp"
+              },
+              {
+                "name": "Final Hope Oasis",
+                "count": 0,
+                "id": "04.webp"
+              },
+              {
+                "name": "Burning Desert",
+                "count": 0,
+                "id": "05.webp"
+              },
+              {
+                "name": "Verdantshade Forest",
+                "count": 0,
+                "id": "06.webp"
+              }
           ]
         },
         {
-          "name": "base body",
+          "name": "Base Body",
           "operation": "source-over",
           "traits": [
             {
-              "name": "base body m 01",
+              "name": "Grol",
               "count": 0,
               "id": "base body m 01.webp"
             }
           ]
         },
         {
-          "name": "beard and jaw",
+          "name": "Beard and Jaw",
           "operation": "source-over",
           "traits": [
             {
-              "name": "beard and jaw m 01",
+              "name": "Ragnath Durnkar",
               "count": 0,
               "id": "beard and jaw m 01.webp"
             },
             {
-              "name": "beard and jaw m 02",
+              "name": "Thrakgar Durnkar",
               "count": 0,
               "id": "beard and jaw m 02.webp"
             },
             {
-              "name": "beard and jaw m 03",
+              "name": "Murkthar Durnkar",
               "count": 0,
               "id": "beard and jaw m 03.webp"
             },
             {
-              "name": "beard and jaw m 04",
+              "name": "Vargoth Durnkar",
               "count": 0,
               "id": "beard and jaw m 04.webp"
             },
             {
-              "name": "beard and jaw m 05",
+              "name": "Rukmar Durnkar",
               "count": 0,
               "id": "beard and jaw m 05.webp"
             },
             {
-              "name": "beard and jaw m 06",
+              "name": "Tholgar Durnkar",
               "count": 0,
               "id": "beard and jaw m 06.webp"
             },
             {
-              "name": "beard and jaw m 07",
+              "name": "Drokthar Durnkar",
               "count": 0,
               "id": "beard and jaw m 07.webp"
             },
             {
-              "name": "beard and jaw m 08",
+              "name": "Grunnak Durnkar",
               "count": 0,
               "id": "beard and jaw m 08.webp"
             },
             {
-              "name": "beard and jaw m 09",
+              "name": "Findlay Durnkar",
               "count": 0,
               "id": "beard and jaw m 09.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body paint tattoo",
+          "name": "Body Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "body paint tattoo m 01",
+              "name": "Hargan Markgor",
               "count": 0,
               "id": "body paint tattoo m 01.webp"
             },
             {
-              "name": "body paint tattoo m 02",
+              "name": "Grayclaw Markgor",
               "count": 0,
               "id": "body paint tattoo m 02.webp"
             },
             {
-              "name": "body paint tattoo m 03",
+              "name": "Kragmar Markgor",
               "count": 0,
               "id": "body paint tattoo m 03.webp"
             },
             {
-              "name": "body paint tattoo m 04",
+              "name": "Murgath Markgor",
               "count": 0,
               "id": "body paint tattoo m 04.webp"
             },
             {
-              "name": "body paint tattoo m 05",
+              "name": "Borak Markgor",
               "count": 0,
               "id": "body paint tattoo m 05.webp"
             },
             {
-              "name": "body paint tattoo m 06",
+              "name": "Grukk Markgor",
               "count": 0,
               "id": "body paint tattoo m 06.webp"
             },
             {
-              "name": "body paint tattoo m 07",
+              "name": "Rognak Markgor",
               "count": 0,
               "id": "body paint tattoo m 07.webp"
             },
             {
-              "name": "body paint tattoo m 08",
+              "name": "Gorath Markgor",
               "count": 0,
               "id": "body paint tattoo m 08.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body scars",
+          "name": "Body Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "body scars m 01",
+              "name": "Frostfang Wolf Gorrash",
               "count": 0,
               "id": "body scars m 01.webp"
             },
             {
-              "name": "body scars m 02",
+              "name": "Shadowclaw Lynx Gorrash",
               "count": 0,
               "id": "body scars m 02.webp"
             },
             {
-              "name": "body scars m 03",
+              "name": "Stormbeak Hawk Gorrash",
               "count": 0,
               "id": "body scars m 03.webp"
             },
             {
-              "name": "body scars m 04",
+              "name": "Ironhide Boar Gorrash",
               "count": 0,
               "id": "body scars m 04.webp"
             },
             {
-              "name": "body scars m 05",
+              "name": "Blazefury Lion Gorrash",
               "count": 0,
               "id": "body scars m 05.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "ear",
+          "name": "Ear",
           "operation": "source-over",
           "traits": [
             {
-              "name": "ear m 01",
+              "name": "Braknar Tharnok",
               "count": 0,
               "id": "ear m 01.webp"
             },
             {
-              "name": "ear m 02",
+              "name": "Rukgar Tharnok",
               "count": 0,
               "id": "ear m 02.webp"
             },
             {
-              "name": "ear m 03",
+              "name": "Drokthar Tharnok",
               "count": 0,
               "id": "ear m 03.webp"
             },
             {
-              "name": "ear m 04",
+              "name": "Gormak Tharnok",
               "count": 0,
               "id": "ear m 04.webp"
             },
             {
-              "name": "ear m 05",
+              "name": "Vrokthar Tharnok",
               "count": 0,
               "id": "ear m 05.webp"
             }
           ]
         },
         {
-          "name": "earring",
+          "name": "Earring",
           "operation": "source-over",
           "traits": [
             {
-              "name": "earring m 01",
+              "name": "Boneclaw Thornak",
               "count": 0,
               "id": "earring m 01.webp"
             },
             {
-              "name": "earring m 02",
+              "name": "Skullhorn Thornak",
               "count": 0,
               "id": "earring m 02.webp"
             },
-			{  "name": "earring m 03",
+			{  "name": "Thornbone Thornak",
               "count": 0,
               "id": "earring m 03.webp"
             },
             {
-              "name": "earring m 04",
+              "name": "Rokkshard Thornak",
               "count": 0,
               "id": "earring m 04.webp"
             },
             {
-              "name": "earring m 05",
+              "name": "Grimspike Thornak",
               "count": 0,
               "id": "earring m 05.webp"
             },
             {
-              "name": "earring m 06",
+              "name": "Drakeclaw Thornak",
               "count": 0,
               "id": "earring m 06.webp"
             },
             {
-              "name": "earring m 07",
+              "name": "Fangring Thornak",
               "count": 0,
               "id": "earring m 07.webp"
             },
             {
-              "name": "earring m 08",
+              "name": "Roughbone Thornak",
               "count": 0,
               "id": "earring m 08.webp"
             },
             {
-              "name": "earring m 09",
+              "name": "Spirebone Thornak",
               "count": 0,
               "id": "earring m 09.webp"
             },
             {
-              "name": "earring m 10",
+              "name": "Gravefang Thornak",
               "count": 0,
               "id": "earring m 10.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "eye",
+          "name": "Eye",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eye m 01",
+              "name": "Mogath Gornir",
               "count": 0,
               "id": "eye m 01.webp"
             },
             {
-              "name": "eye m 02",
+              "name": "Vorgath Gornir",
               "count": 0,
               "id": "eye m 02.webp"
             },
             {
-              "name": "eye m 03",
+              "name": "Brakthar Gornir",
               "count": 0,
               "id": "eye m 03.webp"
             },
             {
-              "name": "eye m 04",
+              "name": "Gorthak Gornir",
               "count": 0,
               "id": "eye m 04.webp"
             },
             {
-              "name": "eye m 05",
+              "name": "Ruknar Gornir",
               "count": 0,
               "id": "eye m 05.webp"
             },
             {
-              "name": "eye m 06",
+              "name": "Thraggar Gornir",
               "count": 0,
               "id": "eye m 06.webp"
             },
             {
-              "name": "eye m 07",
+              "name": "Korag Gornir",
               "count": 0,
               "id": "eye m 07.webp"
             },
             {
-              "name": "eye m 08",
+              "name": "Drakthar Gornir",
               "count": 0,
               "id": "eye m 08.webp"
             },
             {
-              "name": "eye m 09",
+              "name": "Largoth Gornir",
               "count": 0,
               "id": "eye m 09.webp"
             },
             {
-              "name": "eye m 10",
+              "name": "Zugthar Gornir",
               "count": 0,
               "id": "eye m 10.webp"
             },
             {
-              "name": "eye m 11",
+              "name": "Ai'ur Gornir",
               "count": 0,
               "id": "eye m 11.webp"
             }
           ]
         },
         {
-          "name": "eyebrow",
+          "name": "Eyebrow",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eyebrow m 01",
+              "name": "Thraggar Gorneth",
               "count": 0,
               "id": "eyebrow m 01.webp"
             },
             {
-              "name": "eyebrow m 02",
+              "name": "Zuggar Gorneth",
               "count": 0,
               "id": "eyebrow m 02.webp"
             },
             {
-              "name": "eyebrow m 03",
+              "name": "Brukthar Gorneth",
               "count": 0,
               "id": "eyebrow m 03.webp"
             },
             {
-              "name": "eyebrow m 04",
+              "name": "Karnak Gorneth",
               "count": 0,
               "id": "eyebrow m 04.webp"
             },
             {
-              "name": "eyebrow m 05",
+              "name": "Zorgath Gorneth",
               "count": 0,
               "id": "eyebrow m 05.webp"
             }
           ]
         },
         {
-          "name": "face paint tattoo",
+          "name": "Face Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face paint tattoo 01",
+              "name": "Gorthan Markthar",
               "count": 0,
               "id": "face paint tattoo m 01.webp"
             },
             {
-              "name": "face paint tattoo 02",
+              "name": "Rugoth Markthar",
               "count": 0,
               "id": "face paint tattoo m 02.webp"
             },
             {
-              "name": "face paint tattoo 03",
+              "name": "Braggar Markthar",
               "count": 0,
               "id": "face paint tattoo m 03.webp"
             },
             {
-              "name": "face paint tattoo 04",
+              "name": "Rogar Markthar",
               "count": 0,
               "id": "face paint tattoo m 04.webp"
             },
             {
-              "name": "face paint tattoo 05",
+              "name": "Ironpeak Markthar",
               "count": 0,
               "id": "face paint tattoo m 05.webp"
             },
             {
-              "name": "face paint tattoo 06",
+              "name": "Grimnak Markthar",
               "count": 0,
               "id": "face paint tattoo m 06.webp"
             },
             {
-              "name": "face paint tattoo 07",
+              "name": "Drokgar Markthar",
               "count": 0,
               "id": "face paint tattoo m 07.webp"
             },
             {
-              "name": "face paint tattoo 08",
+              "name": "Kragthar Markthar",
               "count": 0,
               "id": "face paint tattoo m 08.webp"
             }
           ]
         },
         {
-          "name": "face scars",
+          "name": "Face Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face scars m 01",
+              "name": "Gorthak Thark",
               "count": 0,
               "id": "face scars m 01.webp"
             },
             {
-              "name": "face scars m 02",
+              "name": "Duung Thark",
               "count": 0,
               "id": "face scars m 02.webp"
             },
             {
-              "name": "face scars m 03",
+              "name": "Gruknar Thark",
               "count": 0,
               "id": "face scars m 03.webp"
             },
             {
-              "name": "face scars m 04",
+              "name": "Thragmar Thark",
               "count": 0,
               "id": "face scars m 04.webp"
             },
             {
-              "name": "face scars m 05",
+              "name": "Rokthar Thark",
               "count": 0,
               "id": "face scars m 05.webp"
             }
           ]
         },
         {
-          "name": "hair",
+          "name": "Hair",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "hair m 01",
+              "name": "Tharnok Farnok",
               "count": 0,
               "id": "hair m 01.webp"
             },
             {
-              "name": "hair m 02",
+              "name": "Bargath Farnok",
               "count": 0,
               "id": "hair m 02.webp"
             },
             {
-              "name": "hair m 03",
+              "name": "Kragnar Farnok",
               "count": 0,
               "id": "hair m 03.webp"
             },
             {
-              "name": "hair m 04",
+              "name": "Rak'bahk Farnok",
               "count": 0,
               "id": "hair m 04.webp"
             },
             {
-              "name": "hair m 05",
+              "name": "Drukk Farnok",
               "count": 0,
               "id": "hair m 05.webp"
             },
             {
-              "name": "hair m 06",
+              "name": "Gravak Farnok",
               "count": 0,
               "id": "hair m 06.webp"
             },
             {
-              "name": "hair m 07",
+              "name": "Orgrak Farnok",
               "count": 0,
               "id": "hair m 07.webp"
             },
             {
-              "name": "hair m 08",
+              "name": "Zolgar Farnok",
               "count": 0,
               "id": "hair m 08.webp"
             }
           ]
         },
         {
-          "name": "mouth and teeth",
+          "name": "Mouth and Teeth",
           "operation": "source-over",
           "traits": [
             {
-              "name": "mouth and teeth m 01",
+              "name": "Mograth Gravmok",
               "count": 0,
               "id": "mouth and teeth m 01.webp"
             },
             {
-              "name": "mouth and teeth m 02",
+              "name": "Kragor Gravmok",
               "count": 0,
               "id": "mouth and teeth m 02.webp"
             },
             {
-              "name": "mouth and teeth m 03",
+              "name": "Zuggar Gravmok",
               "count": 0,
               "id": "mouth and teeth m 03.webp"
             },
             {
-              "name": "mouth and teeth m 04",
+              "name": "Harnak Gravmok",
               "count": 0,
               "id": "mouth and teeth m 04.webp"
             },
             {
-              "name": "mouth and teeth m 05",
+              "name": "Grumgar Gravmok",
               "count": 0,
               "id": "mouth and teeth m 05.webp"
             }
           ]
         },
         {
-          "name": "necklace",
+          "name": "Necklace",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "necklace m 01",
+              "name": "Kuldar Thurnak",
               "count": 0,
               "id": "necklace m 01.webp"
             },
             {
-              "name": "necklace m 02",
+              "name": "Voldren Thurnak",
               "count": 0,
               "id": "necklace m 02.webp"
             },
             {
-              "name": "necklace m 03",
+              "name": "Shad'mor Thurnak",
               "count": 0,
               "id": "necklace m 03.webp"
             },
             {
-              "name": "necklace m 04",
+              "name": "Mal'gor Thurnak",
               "count": 0,
               "id": "necklace m 04.webp"
             },
             {
-              "name": "necklace m 05",
+              "name": "Zul'dan Thurnak",
               "count": 0,
               "id": "necklace m 05.webp"
             },
             {
-              "name": "necklace m 06",
+              "name": "Drak'thor Thurnak",
               "count": 0,
               "id": "necklace m 06.webp"
             },
             {
-              "name": "necklace m 07",
+              "name": "Nek'raal Thurnak",
               "count": 0,
               "id": "necklace m 07.webp"
             },
             {
-              "name": "necklace m 08",
+              "name": "Grim'zul Thurnak",
               "count": 0,
               "id": "necklace m 08.webp"
             }
           ]
         },
         {
-          "name": "nose",
+          "name": "Nose",
           "operation": "source-over",
           "traits": [
             {
-              "name": "nose m 01",
+              "name": "Grokthar Karnrok",
               "count": 0,
               "id": "nose m 01.webp"
             },
             {
-              "name": "nose m 02",
+              "name": "Rogar Karnrok",
               "count": 0,
               "id": "nose m 02.webp"
             },
             {
-              "name": "nose m 03",
+              "name": "Grimnar Karnrok",
               "count": 0,
               "id": "nose m 03.webp"
             },
             {
-              "name": "nose m 04",
+              "name": "Zarrok Karnrok",
               "count": 0,
               "id": "nose m 04.webp"
             },
             {
-              "name": "nose m 05",
+              "name": "Thorgar Karnrok",
               "count": 0,
               "id": "nose m 05.webp"
             }
           ]
         },
         {
-          "name": "nose piercing",
+          "name": "Nose Piercing",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "nose piercing m 01",
+              "name": "Brassring Thurrok",
               "count": 0,
               "id": "nose piercing m 01.webp"
             },
             {
-              "name": "nose piercing m 02",
+              "name": "Coghoop Thurrok",
               "count": 0,
               "id": "nose piercing m 02.webp"
             },
             {
-              "name": "nose piercing m 03",
+              "name": "Steamhoop Thurrok",
               "count": 0,
               "id": "nose piercing m 03.webp"
             },
             {
-              "name": "nose piercing m 04",
+              "name": "Pistonloop Thurrok",
               "count": 0,
               "id": "nose piercing m 04.webp"
             },
             {
-              "name": "nose piercing m 05",
+              "name": "Rivetloop Thurrok",
               "count": 0,
               "id": "nose piercing m 05.webp"
             },
             {
-              "name": "nose piercing m 06",
+              "name": "Gearloop Thurrok",
               "count": 0,
               "id": "nose piercing m 06.webp"
             }
           ]
         },
         {
-          "name": "shoulder armor",
+          "name": "Shoulder Armor",
           "operation": "source-over",
           "traits": [
             {
-              "name": "shoulder armor m 01",
+              "name": "Thunderpaw Gravnar",
               "count": 0,
               "id": "shoulder armor m 01.webp"
             },
             {
-              "name": "shoulder armor m 02",
+              "name": "Darkscale Gravnar",
               "count": 0,
               "id": "shoulder armor m 02.webp"
             },
             {
-              "name": "shoulder armor m 03",
+              "name": "Emberflame Gravnar",
               "count": 0,
               "id": "shoulder armor m 03.webp"
             },
             {
-              "name": "shoulder armor m 04",
+              "name": "Grimtalon Gravnar",
               "count": 0,
               "id": "shoulder armor m 04.webp"
             },
             {
-              "name": "shoulder armor m 05",
+              "name": "Gloomfang Gravnar",
               "count": 0,
               "id": "shoulder armor m 05.webp"
             },
             {
-              "name": "shoulder armor m 06",
+              "name": "Stonehide Gravnar",
               "count": 0,
               "id": "shoulder armor m 06.webp"
             },
             {
-              "name": "shoulder armor m 07",
+              "name": "Wraithwing Gravnar",
               "count": 0,
               "id": "shoulder armor m 07.webp"
             },
             {
-              "name": "shoulder armor m 08",
+              "name": "Nightshade Gravnar",
               "count": 0,
               "id": "shoulder armor m 08.webp"
             },
             {
-              "name": "shoulder armor m 09",
+              "name": "Jim Granar",
               "count": 0,
               "id": "shoulder armor m 09.webp"
             }
           ]
         },
         {
-          "name": "weapon",
+          "name": "Weapon",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "weapon f 01",
+              "name": "Shadowrend Axe",
               "count": 0,
               "id": "weapon f 01.webp"
             },
             {
-              "name": "weapon f 02",
+              "name": "Stormbringer's Axe",
               "count": 0,
               "id": "weapon f 02.webp"
             },
             {
-              "name": "weapon f 03",
+              "name": "Blackguard Sword",
               "count": 0,
               "id": "weapon f 03.webp"
             },
             {
-              "name": "weapon f 04",
+              "name": "Skullsmash Club",
               "count": 0,
               "id": "weapon f 04.webp"
             },
             {
-              "name": "weapon f 05",
+              "name": "Grimfang Mace",
               "count": 0,
               "id": "weapon f 05.webp"
             },
             {
-              "name": "weapon f 06",
+              "name": "Stormpiercer Spear",
               "count": 0,
               "id": "weapon f 06.webp"
             },
             {
-              "name": "weapon f 07",
+              "name": "Honorayne Sword",
               "count": 0,
               "id": "weapon f 07.webp"
             },
             {
-              "name": "weapon f 08",
+              "name": "Shadowrunner Bow",
               "count": 0,
               "id": "weapon f 08.webp"
             }
@@ -2333,771 +2333,770 @@
       ]
     },
     {
-      "name": "male white",
+      "name": "Male Grey",
       "categories": [
         {
-          "name": "backgrounds",
+          "name": "Backgrounds",
           "operation": "source-over",
           "traits": [
-            {
-              "name": "01",
-              "count": 0,
-              "id": "01.webp"
-            },
-            {
-              "name": "02",
-              "count": 0,
-              "id": "02.webp"
-            },
-            {
-              "name": "03",
-              "count": 0,
-              "id": "03.webp"
-            },
-            {
-              "name": "04",
-              "count": 0,
-              "id": "04.webp"
-            },
-            {
-              "name": "05",
-              "count": 0,
-              "id": "05.webp"
-            },
-            {
-              "name": "06",
-              "count": 0,
-              "id": "06.webp"
-            }
+              {
+                "name": "Ymir Mountain",
+                "count": 0,
+                "id": "01.webp"
+              },
+              {
+                "name": "Village Grayclaw",
+                "count": 0,
+                "id": "02.webp"
+              },
+              {
+                "name": "Rán Isle",
+                "count": 0,
+                "id": "03.webp"
+              },
+              {
+                "name": "Final Hope Oasis",
+                "count": 0,
+                "id": "04.webp"
+              },
+              {
+                "name": "Burning Desert",
+                "count": 0,
+                "id": "05.webp"
+              },
+              {
+                "name": "Verdantshade Forest",
+                "count": 0,
+                "id": "06.webp"
+              }
           ]
         },
         {
-          "name": "base body",
+          "name": "Base Body",
           "operation": "source-over",
           "traits": [
             {
-              "name": "base body m 01",
+              "name": "Grol",
               "count": 0,
               "id": "base body m 01.webp"
             }
           ]
         },
         {
-          "name": "beard and jaw",
+          "name": "Beard and Jaw",
           "operation": "source-over",
           "traits": [
             {
-              "name": "beard and jaw m 01",
+              "name": "Ragnath Durnkar",
               "count": 0,
               "id": "beard and jaw m 01.webp"
             },
             {
-              "name": "beard and jaw m 02",
+              "name": "Thrakgar Durnkar",
               "count": 0,
               "id": "beard and jaw m 02.webp"
             },
             {
-              "name": "beard and jaw m 03",
+              "name": "Murkthar Durnkar",
               "count": 0,
               "id": "beard and jaw m 03.webp"
             },
             {
-              "name": "beard and jaw m 04",
+              "name": "Vargoth Durnkar",
               "count": 0,
               "id": "beard and jaw m 04.webp"
             },
             {
-              "name": "beard and jaw m 05",
+              "name": "Rukmar Durnkar",
               "count": 0,
               "id": "beard and jaw m 05.webp"
             },
             {
-              "name": "beard and jaw m 06",
+              "name": "Tholgar Durnkar",
               "count": 0,
               "id": "beard and jaw m 06.webp"
             },
             {
-              "name": "beard and jaw m 07",
+              "name": "Drokthar Durnkar",
               "count": 0,
               "id": "beard and jaw m 07.webp"
             },
             {
-              "name": "beard and jaw m 08",
+              "name": "Grunnak Durnkar",
               "count": 0,
               "id": "beard and jaw m 08.webp"
             },
             {
-              "name": "beard and jaw m 09",
+              "name": "Findlay Durnkar",
               "count": 0,
               "id": "beard and jaw m 09.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body paint tattoo",
+          "name": "Body Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "body paint tattoo m 01",
+              "name": "Hargan Markgor",
               "count": 0,
               "id": "body paint tattoo m 01.webp"
             },
             {
-              "name": "body paint tattoo m 02",
+              "name": "Grayclaw Markgor",
               "count": 0,
               "id": "body paint tattoo m 02.webp"
             },
             {
-              "name": "body paint tattoo m 03",
+              "name": "Kragmar Markgor",
               "count": 0,
               "id": "body paint tattoo m 03.webp"
             },
             {
-              "name": "body paint tattoo m 04",
+              "name": "Murgath Markgor",
               "count": 0,
               "id": "body paint tattoo m 04.webp"
             },
             {
-              "name": "body paint tattoo m 05",
+              "name": "Borak Markgor",
               "count": 0,
               "id": "body paint tattoo m 05.webp"
             },
             {
-              "name": "body paint tattoo m 06",
+              "name": "Grukk Markgor",
               "count": 0,
               "id": "body paint tattoo m 06.webp"
             },
             {
-              "name": "body paint tattoo m 07",
+              "name": "Rognak Markgor",
               "count": 0,
               "id": "body paint tattoo m 07.webp"
             },
             {
-              "name": "body paint tattoo m 08",
+              "name": "Gorath Markgor",
               "count": 0,
               "id": "body paint tattoo m 08.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "body scars",
+          "name": "Body Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "body scars m 01",
+              "name": "Frostfang Wolf Gorrash",
               "count": 0,
               "id": "body scars m 01.webp"
             },
             {
-              "name": "body scars m 02",
+              "name": "Shadowclaw Lynx Gorrash",
               "count": 0,
               "id": "body scars m 02.webp"
             },
             {
-              "name": "body scars m 03",
+              "name": "Stormbeak Hawk Gorrash",
               "count": 0,
               "id": "body scars m 03.webp"
             },
             {
-              "name": "body scars m 04",
+              "name": "Ironhide Boar Gorrash",
               "count": 0,
               "id": "body scars m 04.webp"
             },
             {
-              "name": "body scars m 05",
+              "name": "Blazefury Lion Gorrash",
               "count": 0,
               "id": "body scars m 05.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "ear",
+          "name": "Ear",
           "operation": "source-over",
           "traits": [
             {
-              "name": "ear m 01",
+              "name": "Braknar Tharnok",
               "count": 0,
               "id": "ear m 01.webp"
             },
             {
-              "name": "ear m 02",
+              "name": "Rukgar Tharnok",
               "count": 0,
               "id": "ear m 02.webp"
             },
             {
-              "name": "ear m 03",
+              "name": "Drokthar Tharnok",
               "count": 0,
               "id": "ear m 03.webp"
             },
             {
-              "name": "ear m 04",
+              "name": "Gormak Tharnok",
               "count": 0,
               "id": "ear m 04.webp"
             },
             {
-              "name": "ear m 05",
+              "name": "Vrokthar Tharnok",
               "count": 0,
               "id": "ear m 05.webp"
             }
           ]
         },
         {
-          "name": "earring",
+          "name": "Earring",
           "operation": "source-over",
           "traits": [
             {
-              "name": "earring m 01",
+              "name": "Boneclaw Thornak",
               "count": 0,
               "id": "earring m 01.webp"
             },
             {
-              "name": "earring m 02",
+              "name": "Skullhorn Thornak",
               "count": 0,
               "id": "earring m 02.webp"
             },
-            {
-              "name": "earring m 03",
+            {  "name": "Thornbone Thornak",
               "count": 0,
               "id": "earring m 03.webp"
             },
             {
-              "name": "earring m 04",
+              "name": "Rokkshard Thornak",
               "count": 0,
               "id": "earring m 04.webp"
             },
             {
-              "name": "earring m 05",
+              "name": "Grimspike Thornak",
               "count": 0,
               "id": "earring m 05.webp"
             },
             {
-              "name": "earring m 06",
+              "name": "Drakeclaw Thornak",
               "count": 0,
               "id": "earring m 06.webp"
             },
             {
-              "name": "earring m 07",
+              "name": "Fangring Thornak",
               "count": 0,
               "id": "earring m 07.webp"
             },
             {
-              "name": "earring m 08",
+              "name": "Roughbone Thornak",
               "count": 0,
               "id": "earring m 08.webp"
             },
             {
-              "name": "earring m 09",
+              "name": "Spirebone Thornak",
               "count": 0,
               "id": "earring m 09.webp"
             },
             {
-              "name": "earring m 10",
+              "name": "Gravefang Thornak",
               "count": 0,
               "id": "earring m 10.webp"
             },
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             }
           ]
         },
         {
-          "name": "eye",
+          "name": "Eye",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eye m 01",
+              "name": "Mogath Gornir",
               "count": 0,
               "id": "eye m 01.webp"
             },
             {
-              "name": "eye m 02",
+              "name": "Vorgath Gornir",
               "count": 0,
               "id": "eye m 02.webp"
             },
             {
-              "name": "eye m 03",
+              "name": "Brakthar Gornir",
               "count": 0,
               "id": "eye m 03.webp"
             },
             {
-              "name": "eye m 04",
+              "name": "Gorthak Gornir",
               "count": 0,
               "id": "eye m 04.webp"
             },
             {
-              "name": "eye m 05",
+              "name": "Ruknar Gornir",
               "count": 0,
               "id": "eye m 05.webp"
             },
             {
-              "name": "eye m 06",
+              "name": "Thraggar Gornir",
               "count": 0,
               "id": "eye m 06.webp"
             },
             {
-              "name": "eye m 07",
+              "name": "Korag Gornir",
               "count": 0,
               "id": "eye m 07.webp"
             },
             {
-              "name": "eye m 08",
+              "name": "Drakthar Gornir",
               "count": 0,
               "id": "eye m 08.webp"
             },
             {
-              "name": "eye m 09",
+              "name": "Largoth Gornir",
               "count": 0,
               "id": "eye m 09.webp"
             },
             {
-              "name": "eye m 10",
+              "name": "Zugthar Gornir",
               "count": 0,
               "id": "eye m 10.webp"
             },
             {
-              "name": "eye m 11",
+              "name": "Ai'ur Gornir",
               "count": 0,
               "id": "eye m 11.webp"
             }
           ]
         },
         {
-          "name": "eyebrow",
+          "name": "Eyebrow",
           "operation": "source-over",
           "traits": [
             {
-              "name": "eyebrow m 01",
+              "name": "Thraggar Gorneth",
               "count": 0,
               "id": "eyebrow m 01.webp"
             },
             {
-              "name": "eyebrow m 02",
+              "name": "Zuggar Gorneth",
               "count": 0,
               "id": "eyebrow m 02.webp"
             },
             {
-              "name": "eyebrow m 03",
+              "name": "Brukthar Gorneth",
               "count": 0,
               "id": "eyebrow m 03.webp"
             },
             {
-              "name": "eyebrow m 04",
+              "name": "Karnak Gorneth",
               "count": 0,
               "id": "eyebrow m 04.webp"
             },
             {
-              "name": "eyebrow m 05",
+              "name": "Zorgath Gorneth",
               "count": 0,
               "id": "eyebrow m 05.webp"
             }
           ]
         },
         {
-          "name": "face paint tattoo",
+          "name": "Face Paint Tattoo",
           "operation": "multiply",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face paint tattoo m 01",
+              "name": "Gorthan Markthar",
               "count": 0,
               "id": "face paint tattoo m 01.webp"
             },
             {
-              "name": "face paint tattoo m 02",
+              "name": "Rugoth Markthar",
               "count": 0,
               "id": "face paint tattoo m 02.webp"
             },
             {
-              "name": "face paint tattoo m 03",
+              "name": "Braggar Markthar",
               "count": 0,
               "id": "face paint tattoo m 03.webp"
             },
             {
-              "name": "face paint tattoo m 04",
+              "name": "Rogar Markthar",
               "count": 0,
               "id": "face paint tattoo m 04.webp"
             },
             {
-              "name": "face paint tattoo m 05",
+              "name": "Ironpeak Markthar",
               "count": 0,
               "id": "face paint tattoo m 05.webp"
             },
             {
-              "name": "face paint tattoo m 06",
+              "name": "Grimnak Markthar",
               "count": 0,
               "id": "face paint tattoo m 06.webp"
             },
             {
-              "name": "face paint tattoo m 07",
+              "name": "Drokgar Markthar",
               "count": 0,
               "id": "face paint tattoo m 07.webp"
             },
             {
-              "name": "face paint tattoo m 08",
+              "name": "Kragthar Markthar",
               "count": 0,
               "id": "face paint tattoo m 08.webp"
             }
           ]
         },
         {
-          "name": "face scars",
+          "name": "Face Scars",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "face scars m 01",
+              "name": "Gorthak Thark",
               "count": 0,
               "id": "face scars m 01.webp"
             },
             {
-              "name": "face scars m 02",
+              "name": "Duung Thark",
               "count": 0,
               "id": "face scars m 02.webp"
             },
             {
-              "name": "face scars m 03",
+              "name": "Gruknar Thark",
               "count": 0,
               "id": "face scars m 03.webp"
             },
             {
-              "name": "face scars m 04",
+              "name": "Thragmar Thark",
               "count": 0,
               "id": "face scars m 04.webp"
             },
             {
-              "name": "face scars m 05",
+              "name": "Rokthar Thark",
               "count": 0,
               "id": "face scars m 05.webp"
             }
           ]
         },
         {
-          "name": "hair",
+          "name": "Hair",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "hair m 01",
+              "name": "Tharnok Farnok",
               "count": 0,
               "id": "hair m 01.webp"
             },
             {
-              "name": "hair m 02",
+              "name": "Bargath Farnok",
               "count": 0,
               "id": "hair m 02.webp"
             },
             {
-              "name": "hair m 03",
+              "name": "Kragnar Farnok",
               "count": 0,
               "id": "hair m 03.webp"
             },
             {
-              "name": "hair m 04",
+              "name": "Rak'bahk Farnok",
               "count": 0,
               "id": "hair m 04.webp"
             },
             {
-              "name": "hair m 05",
+              "name": "Drukk Farnok",
               "count": 0,
               "id": "hair m 05.webp"
             },
             {
-              "name": "hair m 06",
+              "name": "Gravak Farnok",
               "count": 0,
               "id": "hair m 06.webp"
             },
             {
-              "name": "hair m 07",
+              "name": "Orgrak Farnok",
               "count": 0,
               "id": "hair m 07.webp"
             },
             {
-              "name": "hair m 08",
+              "name": "Zolgar Farnok",
               "count": 0,
               "id": "hair m 08.webp"
             }
           ]
         },
         {
-          "name": "mouth and teeth",
+          "name": "Mouth and Teeth",
           "operation": "source-over",
           "traits": [
             {
-              "name": "mouth and teeth m 01",
+              "name": "Mograth Gravmok",
               "count": 0,
               "id": "mouth and teeth m 01.webp"
             },
             {
-              "name": "mouth and teeth m 02",
+              "name": "Kragor Gravmok",
               "count": 0,
               "id": "mouth and teeth m 02.webp"
             },
             {
-              "name": "mouth and teeth m 03",
+              "name": "Zuggar Gravmok",
               "count": 0,
               "id": "mouth and teeth m 03.webp"
             },
             {
-              "name": "mouth and teeth m 04",
+              "name": "Harnak Gravmok",
               "count": 0,
               "id": "mouth and teeth m 04.webp"
             },
             {
-              "name": "mouth and teeth m 05",
+              "name": "Grumgar Gravmok",
               "count": 0,
               "id": "mouth and teeth m 05.webp"
             }
           ]
         },
         {
-          "name": "necklace",
+          "name": "Necklace",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "necklace m 01",
+              "name": "Kuldar Thurnak",
               "count": 0,
               "id": "necklace m 01.webp"
             },
             {
-              "name": "necklace m 02",
+              "name": "Voldren Thurnak",
               "count": 0,
               "id": "necklace m 02.webp"
             },
             {
-              "name": "necklace m 03",
+              "name": "Shad'mor Thurnak",
               "count": 0,
               "id": "necklace m 03.webp"
             },
             {
-              "name": "necklace m 04",
+              "name": "Mal'gor Thurnak",
               "count": 0,
               "id": "necklace m 04.webp"
             },
             {
-              "name": "necklace m 05",
+              "name": "Zul'dan Thurnak",
               "count": 0,
               "id": "necklace m 05.webp"
             },
             {
-              "name": "necklace m 06",
+              "name": "Drak'thor Thurnak",
               "count": 0,
               "id": "necklace m 06.webp"
             },
             {
-              "name": "necklace m 07",
+              "name": "Nek'raal Thurnak",
               "count": 0,
               "id": "necklace m 07.webp"
             },
             {
-              "name": "necklace m 08",
+              "name": "Grim'zul Thurnak",
               "count": 0,
               "id": "necklace m 08.webp"
             }
           ]
         },
         {
-          "name": "nose",
+          "name": "Nose",
           "operation": "source-over",
           "traits": [
             {
-              "name": "nose m 01",
+              "name": "Grokthar Karnrok",
               "count": 0,
               "id": "nose m 01.webp"
             },
             {
-              "name": "nose m 02",
+              "name": "Rogar Karnrok",
               "count": 0,
               "id": "nose m 02.webp"
             },
             {
-              "name": "nose m 03",
+              "name": "Grimnar Karnrok",
               "count": 0,
               "id": "nose m 03.webp"
             },
             {
-              "name": "nose m 04",
+              "name": "Zarrok Karnrok",
               "count": 0,
               "id": "nose m 04.webp"
             },
             {
-              "name": "nose m 05",
+              "name": "Thorgar Karnrok",
               "count": 0,
               "id": "nose m 05.webp"
             }
           ]
         },
         {
-          "name": "nose piercing",
+          "name": "Nose Piercing",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "nose piercing m 01",
+              "name": "Brassring Thurrok",
               "count": 0,
               "id": "nose piercing m 01.webp"
             },
             {
-              "name": "nose piercing m 02",
+              "name": "Coghoop Thurrok",
               "count": 0,
               "id": "nose piercing m 02.webp"
             },
             {
-              "name": "nose piercing m 03",
+              "name": "Steamhoop Thurrok",
               "count": 0,
               "id": "nose piercing m 03.webp"
             },
             {
-              "name": "nose piercing m 04",
+              "name": "Pistonloop Thurrok",
               "count": 0,
               "id": "nose piercing m 04.webp"
             },
             {
-              "name": "nose piercing m 05",
+              "name": "Rivetloop Thurrok",
               "count": 0,
               "id": "nose piercing m 05.webp"
             },
             {
-              "name": "nose piercing m 06",
+              "name": "Gearloop Thurrok",
               "count": 0,
               "id": "nose piercing m 06.webp"
             }
           ]
         },
         {
-          "name": "shoulder armor",
+          "name": "Shoulder Armor",
           "operation": "source-over",
           "traits": [
             {
-              "name": "shoulder armor m 01",
+              "name": "Thunderpaw Gravnar",
               "count": 0,
               "id": "shoulder armor m 01.webp"
             },
             {
-              "name": "shoulder armor m 02",
+              "name": "Darkscale Gravnar",
               "count": 0,
               "id": "shoulder armor m 02.webp"
             },
             {
-              "name": "shoulder armor m 03",
+              "name": "Emberflame Gravnar",
               "count": 0,
               "id": "shoulder armor m 03.webp"
             },
             {
-              "name": "shoulder armor m 04",
+              "name": "Grimtalon Gravnar",
               "count": 0,
               "id": "shoulder armor m 04.webp"
             },
             {
-              "name": "shoulder armor m 05",
+              "name": "Gloomfang Gravnar",
               "count": 0,
               "id": "shoulder armor m 05.webp"
             },
             {
-              "name": "shoulder armor m 06",
+              "name": "Stonehide Gravnar",
               "count": 0,
               "id": "shoulder armor m 06.webp"
             },
             {
-              "name": "shoulder armor m 07",
+              "name": "Wraithwing Gravnar",
               "count": 0,
               "id": "shoulder armor m 07.webp"
             },
             {
-              "name": "shoulder armor m 08",
+              "name": "Nightshade Gravnar",
               "count": 0,
               "id": "shoulder armor m 08.webp"
             },
             {
-              "name": "shoulder armor m 09",
+              "name": "Jim Granar",
               "count": 0,
               "id": "shoulder armor m 09.webp"
             }
           ]
         },
         {
-          "name": "weapon",
+          "name": "Weapon",
           "operation": "source-over",
           "traits": [
             {
-              "name": "empty",
+              "name": "Empty",
               "count": 0,
               "id": "empty.webp"
             },
             {
-              "name": "weapon f 01",
+              "name": "Shadowrend Axe",
               "count": 0,
               "id": "weapon f 01.webp"
             },
             {
-              "name": "weapon f 02",
+              "name": "Stormbringer's Axe",
               "count": 0,
               "id": "weapon f 02.webp"
             },
             {
-              "name": "weapon f 03",
+              "name": "Blackguard Sword",
               "count": 0,
               "id": "weapon f 03.webp"
             },
             {
-              "name": "weapon f 04",
+              "name": "Skullsmash Club",
               "count": 0,
               "id": "weapon f 04.webp"
             },
             {
-              "name": "weapon f 05",
+              "name": "Grimfang Mace",
               "count": 0,
               "id": "weapon f 05.webp"
             },
             {
-              "name": "weapon f 06",
+              "name": "Stormpiercer Spear",
               "count": 0,
               "id": "weapon f 06.webp"
             },
             {
-              "name": "weapon f 07",
+              "name": "Honorayne Sword",
               "count": 0,
               "id": "weapon f 07.webp"
             },
             {
-              "name": "weapon f 08",
+              "name": "Shadowrunner Bow",
               "count": 0,
               "id": "weapon f 08.webp"
             }

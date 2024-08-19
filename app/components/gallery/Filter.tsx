@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Filter.css';
 import Image from "next/image";
+import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
+
 import { json } from 'stream/consumers';
 import { MetaData, TraitsData, collection, configuration, filtes, filer } from './metadataTypes';
 import { divider } from '@nextui-org/theme';
@@ -31,11 +33,8 @@ function filterIsActive(conf: string, cates: string, trat:string) : boolean {
                             return true;
                         }
                     })
-
-                   
                 }
-            })
-            
+            }) 
         }
     })
     if(fa){
@@ -106,39 +105,53 @@ const Filter: React.FC<FilterProps> = ({ traits, activeFilters, onFilterChange, 
             </div>
 
             {Object.entries(coll.configurations).map(([_, config]) => (
-                <div key={config.name} className="label-area">
-                    <div className="filter-label" onClick={() => toggleCategory(config.name)}>
+                <div key={config.name.toLowerCase()} className="label-area">
+                    <div className="filter-label" onClick={() => toggleCategory(config.name.toLowerCase())}>
                         <div className="label-content">
-                            <div className={`rotate-icon ${expandedCategories[config.name] ? 'expanded' : ''}`}>
+                            <div className={`rotate-icon ${expandedCategories[config.name.toLowerCase()] ? 'expanded' : ''}`}>
                                 <Image src='/1_triangle_aeons.png' alt="expand-icon" width={13} height={13} />
                             </div>
-                            {config.name}
+                            {config.name.toLowerCase()}
                         </div>
                     </div>
-                    {expandedCategories[config.name] && (
+                    {expandedCategories[config.name.toLowerCase()] && (
                         <div className="expanded-area ml-3 mt-2">
                             {config.categories.map(option => (
-                                <div key={option.name} className="label-area">
-                                    <div className="filter-label" onClick={() => toggleCategory(option.name)}>
+                                <div key={option.name.toLowerCase()} className="label-area">
+                                    <div className="filter-label" onClick={() => toggleCategory(option.name.toLowerCase())}>
                                         <div className="label-content">
-                                            <div className={`rotate-icon ${expandedCategories[option.name] ? 'expanded' : ''}`}>
+                                            <div className={`rotate-icon ${expandedCategories[option.name.toLowerCase()] ? 'expanded' : ''}`}>
                                                 <Image src='/1_triangle_aeons.png' alt="expand-icon" width={13} height={13} />
                                             </div>
-                                            {option.name}
+                                            {option.name.toLowerCase()}
                                         </div>
                                     </div>
-                                    {expandedCategories[option.name] && (
+                                    {expandedCategories[option.name.toLowerCase()] && (
                                         <div className="expanded-area">
                                             {
                                                 option.traits.map(trait => (
-                                                    <button
-                                                        key={trait.id}
-                                                        className={`filter-option ${filterIsActive(config.name,option.name, trait.id) ? 'active' : ''}`}
-                                                        onClick={() => handleChange(config.name, option.name, trait.id)}
-                                                    >
-                                                        
-                                                        {`${trait.id == "empty.webp"? "Empty" : trait.id.substring(trait.id.length - 7, trait.id.length - 5)}`}
-                                                    </button>
+
+                                                    <Tooltip title= {`${trait.id == "empty.webp"? "Empty" : trait.name}`}  slotProps={{
+                                                        popper: {
+                                                          modifiers: [
+                                                            {
+                                                              name: 'offset',
+                                                              options: {
+                                                                offset: [0, -14],
+                                                              },
+                                                            },
+                                                          ],
+                                                        },
+                                                      }}>
+                                                        <button
+                                                            key={trait.id}
+                                                            className={`filter-option ${filterIsActive(config.name.toLowerCase(), option.name.toLowerCase(), trait.id) ? 'active' : ''}`}
+                                                            onClick={() => handleChange(config.name.toLowerCase(), option.name.toLowerCase(), trait.id)}
+                                                            
+                                                        >
+                                                            {`${trait.id == "empty.webp"? "Empty" : trait.name}`}
+                                                        </button>
+                                                    </Tooltip>
                                                 ))
                                             }
                                         </div>
