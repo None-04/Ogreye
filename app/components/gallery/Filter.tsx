@@ -142,7 +142,7 @@ const Filter: React.FC<FilterProps> = ({ traits, activeFilters, onFilterChange, 
                                                             },
                                                           ],
                                                         },
-                                                      }}>
+                                                      }} key={config.name+option.name+trait.name}>
                                                         <button
                                                             key={trait.id}
                                                             className={`filter-option ${filterIsActive(config.name.toLowerCase(), option.name.toLowerCase(), trait.id) ? 'active' : ''}`}
