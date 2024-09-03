@@ -28,17 +28,17 @@ const useWindowSize = () => {
 
         window.addEventListener('resize', handleResize);
         handleResize(); // Set initial size
-        
+
         return () => window.removeEventListener('resize', handleResize);
 
-        
+
     }, []);
 
     return { size, isLoaded };
 };
 
-var filterB:string[] = [];
-var map:Map<number, number> = new Map();
+var filterB: string[] = [];
+var map: Map<number, number> = new Map();
 
 const TOTAL_IMAGES = 3518;
 
@@ -103,9 +103,9 @@ const ImageGallery: React.FC = () => {
 
     const handleFilterChange = (traitType: string | undefined, value: string) => {
         if (traitType == undefined) {
-            filtes.forEach((s)=>{
-                s.cate.forEach((f, i)=>{
-                    f.trats.forEach((t, j)=>{
+            filtes.forEach((s) => {
+                s.cate.forEach((f, i) => {
+                    f.trats.forEach((t, j) => {
                         delete f.trats[j];
                     })
                 })
@@ -146,8 +146,8 @@ const ImageGallery: React.FC = () => {
         });
     };
 
-    const filteredImages:string[] = [];
-    filteredImages.length = TOTAL_IMAGES; 
+    const filteredImages: string[] = [];
+    filteredImages.length = TOTAL_IMAGES;
 
     const getColumnCount = useCallback(() => {
         if (width >= 1024) return 6;
@@ -165,22 +165,22 @@ const ImageGallery: React.FC = () => {
     const columnWidth = (isFilterVisible || width < MOBILE_THRESH_HOLD) ? (Math.floor(width / columnCount) - 4) : (Math.floor(0.66 * width / columnCount));
 
     const handleImageClick = (imageIndex: number, filteredImages: string[]) => {
-        setSelectedImageIndex(imageIndex );
+        setSelectedImageIndex(imageIndex);
         const meta = metadata["" || ''];
         setSelectedMeta(meta || null);
 
 
-        let att:attributes[] = [];
+        let att: attributes[] = [];
 
-        for(let t of metadataN!){
-            if(Number(t.meta.name) == imageIndex){
+        for (let t of metadataN!) {
+            if (Number(t.meta.name) == imageIndex) {
                 att = t.meta.attributes;
                 break;
             }
         }
         setSelectedImage(imageIndex)
         setselectedMetaN(att)
-        
+
     };
     const handlePrevious = () => {
         if (selectedImageIndex !== null && selectedImageIndex > 0) {
@@ -195,7 +195,7 @@ const ImageGallery: React.FC = () => {
 
 
 
-    function generateNFT(imageIndex: number, size:{width:number, height:number}, onComplete:(canvas:HTMLCanvasElement)=>void) {
+    function generateNFT(imageIndex: number, size: { width: number, height: number }, onComplete: (canvas: HTMLCanvasElement) => void) {
         let scriptino: string = "";
         const fetchScriptino = async () => {
             try {
@@ -217,9 +217,6 @@ const ImageGallery: React.FC = () => {
 
         fetchData().then(() => {
 
-
-            //ew Promise.all(f);
-
             if (scriptino == "") {
                 return "";
             }
@@ -227,6 +224,10 @@ const ImageGallery: React.FC = () => {
 
             let c = diva[1]
             let s = diva[2]
+            let o = undefined;
+            if (!diva[3].startsWith("src")) {
+                o = diva[3].substring(2, diva[3].length)
+            }
 
             if (c == undefined || s == undefined) {
                 return "";
@@ -237,8 +238,7 @@ const ImageGallery: React.FC = () => {
 
             const selectedTraitIndexes = s.split(",")
 
-
-            if(collection == undefined){
+            if (collection == undefined) {
                 return;
             }
             const conf = collection!.configurations[Number(c)];
@@ -247,28 +247,27 @@ const ImageGallery: React.FC = () => {
 
             for (let i in selectedTraitIndexes) {
                 let v = selectedTraitIndexes[i];
-                traits.push("traits/" + conf.name.toLowerCase() + "/" + conf.categories[i].name.toLowerCase() + "/" + conf.categories[i].traits[Number(v)].id);
+                traits.push("https://ordinals.com/content/"  + conf.categories[i].traits[Number(v)].id);
             }
 
-            let selectedTraitOrders: number[] = [];
-
-            switch (c) {
-                case "0":
-                case "1":
-                    selectedTraitOrders = [0, 18, 1, 3, 4, 15, 8, 13, 9, 10, 11, 5, 14, 12, 17, 6, 7, 16, 2];
-                    break;
-                case "2":
-                case "3":
-                    selectedTraitOrders = [0, 17, 1, 3, 4, 14, 7, 16, 13, 11, 5, 8, 9, 10, 12, 2, 15, 6];
-                    break;
+            if (o == undefined) {
+                switch (c) {
+                    case "0":
+                    case "1":
+                        o = [0, 18, 1, 3, 4, 15, 8, 13, 9, 10, 11, 5, 14, 12, 17, 6, 7, 16, 2];
+                        break;
+                    case "2":
+                    case "3":
+                        o = [0, 17, 1, 3, 4, 14, 7, 16, 13, 11, 5, 8, 9, 10, 15, 6, 2, 12];
+                        break;
+                }
             }
-
             const operations = conf.categories.map((v: any, i: number) => conf.categories[i].operation);
 
 
             const genes = async () => {
                 try {
-                    await renderImage(traits, operations, selectedTraitOrders)
+                    await renderImage(traits, operations, o)
 
                 } catch (error) {
                     console.error(`Error fetching script: ${imageIndex}`, error);
@@ -307,7 +306,7 @@ const ImageGallery: React.FC = () => {
 
             async function renderImage(urls: string[], operations: any, order: any) {
 
-                if(document == undefined){
+                if (document == undefined) {
                     return;
                 }
                 const canvas = document.createElement('canvas');
@@ -324,55 +323,55 @@ const ImageGallery: React.FC = () => {
                     ctx!.globalCompositeOperation = operations[n];
                     ctx!.drawImage(images[n], 0, 0, canvas.width, canvas.height);
                 }
-                if(document == undefined){
+                if (document == undefined) {
                     return;
                 }
                 onComplete(canvas);
             }
         });
     }
-    
-    function fileterCha(conf: string, cates: string, trat:string) : void{
-        
-        filtes.forEach((s)=>{
-            if(s.names == conf){
+
+    function fileterCha(conf: string, cates: string, trat: string): void {
+
+        filtes.forEach((s) => {
+            if (s.names == conf) {
                 let a = false;
 
-                s.cate.forEach((f, i)=>{
-                    if(f.name == cates){
+                s.cate.forEach((f, i) => {
+                    if (f.name == cates) {
                         a = true;
                         let g = false;
-                        f.trats.forEach((t, j)=>{
-                            if(t == trat){
+                        f.trats.forEach((t, j) => {
+                            if (t == trat) {
                                 delete f.trats[j];
                                 g = true;
                             }
                         })
 
-                        if(!g){
+                        if (!g) {
                             f.trats.push(trat)
                         }
 
                         return
                     }
                 })
-                if(!a){
-                    s.cate.push({name:cates, trats:[]});
-                    
-                    s.cate.forEach((f, i)=>{
-                        if(f.name == cates){
+                if (!a) {
+                    s.cate.push({ name: cates, trats: [] });
+
+                    s.cate.forEach((f, i) => {
+                        if (f.name == cates) {
                             let g = false;
-                            f.trats.forEach((t, j)=>{
-                                if(t == trat){
+                            f.trats.forEach((t, j) => {
+                                if (t == trat) {
                                     delete f.trats[j];
                                     g = true;
                                 }
                             })
-    
-                            if(!g){
+
+                            if (!g) {
                                 f.trats.push(trat)
                             }
-    
+
                             return
                         }
                     })
@@ -381,47 +380,47 @@ const ImageGallery: React.FC = () => {
             }
         })
         filterB = [];
-        filtes.forEach(cate=>{
-            cate.cate.forEach(a =>{
-                a.trats.forEach(t=>{
-                    filterB.push(cate.names+a.name+t)
+        filtes.forEach(cate => {
+            cate.cate.forEach(a => {
+                a.trats.forEach(t => {
+                    filterB.push(cate.names + a.name + t)
                 })
             })
         })
 
         map.clear();
         let inserti = 0;
-        if(filterB.length == 0){
-            for(let i = 0; i < TOTAL_IMAGES; i++){
+        if (filterB.length == 0) {
+            for (let i = 0; i < TOTAL_IMAGES; i++) {
                 map.set(i, i);
             }
             return;
         }
-        for(let i = 0; i < TOTAL_IMAGES; i++){
+        for (let i = 0; i < TOTAL_IMAGES; i++) {
 
 
             while (inserti < TOTAL_IMAGES) {
-        
+
                 let fa = false;
-                let m:meta = getmetadataNFT(inserti);
-                let attB:String[] = []
-                m.attributes.forEach(t=>{
-                    attB.push(m.configuration+t.trait_type+t.value +  ".webp")
+                let m: meta = getmetadataNFT(inserti);
+                let attB: String[] = []
+                m.attributes.forEach(t => {
+                    attB.push(m.configuration + t.trait_type + t.value + ".webp")
                 })
-                for(let f of filterB){
-                    if(!attB.includes(f)){
+                for (let f of filterB) {
+                    if (!attB.includes(f)) {
                         fa = true;
                     }
                 }
 
-                if(fa){
+                if (fa) {
                     inserti++;
                     continue;
                 }
                 break;
             }
             if (inserti >= TOTAL_IMAGES) {
-                for(; i < TOTAL_IMAGES; i++){
+                for (; i < TOTAL_IMAGES; i++) {
                     map.set(i, -1);
                 }
             }
@@ -431,13 +430,13 @@ const ImageGallery: React.FC = () => {
         }
 
     }
-    
 
-    function getmetadataNFT(i:number) : meta {
-        let att:meta = {attributes:[], configuration:"", name:""};
 
-        for(let t of metadataN!){
-            if(Number(t.meta.name) == i){
+    function getmetadataNFT(i: number): meta {
+        let att: meta = { attributes: [], configuration: "", name: "" };
+
+        for (let t of metadataN!) {
+            if (Number(t.meta.name) == i) {
                 att = t.meta;
                 break;
             }
@@ -451,16 +450,16 @@ const ImageGallery: React.FC = () => {
         style
     }) => {
 
-        let  imageIndex = rowIndex * columnCount + columnIndex;
-        
+        let imageIndex = rowIndex * columnCount + columnIndex;
+
         if (imageIndex >= TOTAL_IMAGES) return null;
-        
-        if(searchValue.length != 0){
-            if(imageIndex > 0) return null;
+
+        if (searchValue.length != 0) {
+            if (imageIndex > 0) return null;
             imageIndex = Number(searchValue)
         }
         let mapImageIndex = map.get(imageIndex)!;
-        
+
 
         if (mapImageIndex == -1) return null;
 
@@ -488,10 +487,10 @@ const ImageGallery: React.FC = () => {
                 </div>
             );
         } else {
-            generateNFT(mapImageIndex, {width:500, height:500}, (canvas) => {  
+            generateNFT(mapImageIndex, { width: 500, height: 500 }, (canvas) => {
                 let img = document.getElementById(String(mapImageIndex))
                 generatedNft[mapImageIndex] = canvas.toDataURL("image/png");
-                if(img == undefined){return  generatedNft[mapImageIndex]}
+                if (img == undefined) { return generatedNft[mapImageIndex] }
                 img.setAttribute('src', canvas.toDataURL("image/png"));
             });
             return (
@@ -503,7 +502,7 @@ const ImageGallery: React.FC = () => {
 
 
                             src={`/loading.gif`}
-                            priority={true} 
+                            priority={true}
                             id={`${mapImageIndex}`}
                             alt={`Image ${mapImageIndex + 1}`}
                             onClick={() => handleImageClick(imageIndex, filteredImages)}
@@ -520,14 +519,14 @@ const ImageGallery: React.FC = () => {
 
     let select = undefined;
     let mapSelect = 0;
-    if (selectedImage != undefined){
+    if (selectedImage != undefined) {
         select = map.get(selectedImage);
         if (select == undefined) select = 0;
 
-        generateNFT(select, {width:800, height:800}, (canvas) => {
-            
+        generateNFT(select, { width: 800, height: 800 }, (canvas) => {
+
             let img = document.getElementById("selectedImage")
-            if(img == undefined){return}
+            if (img == undefined) { return }
             img.setAttribute('src', canvas.toDataURL("image/png"));
         });
         mapSelect = select;
@@ -570,8 +569,8 @@ const ImageGallery: React.FC = () => {
                             </Grid>
                         )}
                         {select != undefined && (
-                            <DetailsModal onClose={() => {setSelectedMeta(null); setSelectedImage(undefined)}} onNext={handleNext} onPrevious={handlePrevious}>
-                                <ImageDetails mapSelectedImage={select} selectedImage={mapSelect}/>
+                            <DetailsModal onClose={() => { setSelectedMeta(null); setSelectedImage(undefined) }} onNext={handleNext} onPrevious={handlePrevious}>
+                                <ImageDetails mapSelectedImage={select} selectedImage={mapSelect} />
                             </DetailsModal>
                         )}
                     </div>
