@@ -227,6 +227,7 @@ const ImageGallery: React.FC = () => {
             let o = undefined;
             if (!diva[3].startsWith("src")) {
                 o = diva[3].substring(2, diva[3].length)
+                o= o.split(",")
             }
 
             if (c == undefined || s == undefined) {
