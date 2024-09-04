@@ -405,7 +405,7 @@ const ImageGallery: React.FC = () => {
                 let m: meta = getmetadataNFT(inserti);
                 let attB: String[] = []
                 m.attributes.forEach(t => {
-                    attB.push(m.configuration + t.trait_type + t.value + ".webp")
+                    attB.push(m.configuration + t.category + t.id)
                 })
                 for (let f of filterB) {
                     if (!attB.includes(f)) {

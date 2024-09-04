@@ -26,8 +26,9 @@ export interface meta{
 }
 
 export interface attributes{
-    trait_type:string
-    value:string
+    category:  string
+    name: string;
+    id: string
 }
 
 export interface TraitsData {
